@@ -2,13 +2,13 @@
 
 ## Daily Training Log
 
-**Date:** _______________ | **Training Day:** ___/180 (or ___/90 for 3-month plan)
+**Date:** Febuary 06, 2026 | **Training Day:** 1/180 (or 1/90 for 3-month plan)
 
 ### 1. Time Investment
 
-- [ ] Training time today: _______ hours
-- [ ] Goal met? (Yes/No)
-- [ ] Consistency streak: _____ days
+- [2] Training time today: 2 hours & 30 minutes
+- [Yes] Goal met? (Yes/No)
+- [1] Consistency streak: 1 days
 
 **Points:**
 
@@ -21,7 +21,7 @@
 
 | Difficulty      | Challenges Solved | Points Earned |
 | --------------- | ----------------- | ------------- |
-| Easy            | _____ × 5 pts     | _____         |
+| Easy            |     3 × 5 pts     | 15            |
 | Medium          | _____ × 15 pts    | _____         |
 | Hard            | _____ × 30 pts    | _____         |
 | Expert          | _____ × 50 pts    | _____         |
@@ -43,7 +43,7 @@ Which categories did you practice?
 
 - [ ] Web Exploitation
 - [ ] Binary Exploitation / Pwn
-- [ ] Cryptography
+- [✓] Cryptography
 - [ ] Reverse Engineering
 - [ ] Forensics
 - [ ] OSINT
@@ -59,7 +59,7 @@ Which categories did you practice?
 
 **What went well today?**
 
----
+
 
 **What challenged you?**
 
