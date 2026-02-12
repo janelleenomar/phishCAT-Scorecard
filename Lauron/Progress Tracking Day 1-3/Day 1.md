@@ -7,7 +7,7 @@
 ### 1. Time Investment
 
 - [2] Training time today: 2 hours & 30 minutes
-- [Yes] Goal met? (Yes/No)
+- [ ] Goal met? (Yes/No)
 - [1] Consistency streak: 1 days
 
 **Points:**
