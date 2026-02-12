@@ -68,9 +68,9 @@ Which categories did you practice?
 
 **Key learning:**
 
-<ins>Able to learn new techniques, such as editing the URL to access hidden files, e.g., robots.txt.
-I was also able to learn a little bit of git.</ins>
+<ins>Learned XFF, Learned intruder option Burp Suite by brute forcing passwords in a form.</ins>
 
 **Tomorrow's focus:**
 
 <ins>More CTF challenges and new techniques.</ins>
+
