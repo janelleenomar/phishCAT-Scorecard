@@ -33,6 +33,8 @@ ZmxhZzogcGljb0NURntEMWRfdV9rbjB3X3BwdHNfcl96MXA1fQ
 
 **Step 6:** I pasted the cleaned Base64 string into **DevToys** to decode it, which successfully translated the text into the final plain-text flag.
 
+![DevToys interface decoding the Base64 string into the flag](images/macrohard-weakedge/devtoys-decode.png)
+
 ## 3. The Findings
 Decoding the hidden Base64 string successfully revealed the flag:
 
