@@ -79,14 +79,18 @@ This member studies how web applications work, how vulnerabilities occur, and ho
 
 ## 🕵️ Member 4 – Forensics Specialist
 
-### 📚 Focus Area: Open Source Intelligence
+### 📚 Focus Area: Computer Forensics
 
 
 ### Topics Covered
-
+* File Analysis & Metadata (Strings, Magic Bytes, Steganography)
+* Multi-Environment Tooling (CyberChef, DevToys, Hex Editors, Notepad)
+* Disk Image Investigation (.dd files)
 
 ### Progress Goals
-
+* Transition from Windows CLI (`exiftool.exe`, `strings.exe`) to mastering Kali Linux native syntax and tools.
+* Optimize tool selection based on challenge efficiency (Web vs. Local OS vs. Kali VM).
+* Increase independent puzzle-solving in live CTF events.
 
 
 ---
