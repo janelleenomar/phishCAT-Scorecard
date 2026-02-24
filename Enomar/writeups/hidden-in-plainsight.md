@@ -8,7 +8,7 @@
 | **Target File** | `img.jpg` |
 
 ## 1. The Challenge Scenario
-We were provided with a seemingly ordinary **JPG image** that looked like random noise when opened. The objective was to discover a payload tucked away out of sight inside the file and extract the flag. This required checking the file's metadata for clues and using steganography tools to retrieve the hidden data.
+A seemingly ordinary **JPG image** was provided that looked like random noise when opened. The objective was to discover a payload tucked away out of sight inside the file and extract the flag. This required checking the file's metadata for clues and using steganography tools to retrieve the hidden data.
 
 ![Hidden in plainsight Challenge Description](images/hidden-in-plainsight/challenge-description.png)
 
