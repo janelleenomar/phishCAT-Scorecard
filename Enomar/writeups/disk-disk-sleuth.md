@@ -10,7 +10,7 @@
 ## 1. The Challenge Scenario
 We were provided with a file to analyze for a hidden flag. However, attempting to open or execute the file normally resulted in Windows blocking the action, likely due to security mechanisms flagging the unknown or potentially suspicious file format. The objective was to find a safe way to inspect the file's contents and extract the flag.
 
-![Challenge Description](images/forensics-neophyte/challenge-description.png)
+![Challenge Description](images/disk-disk-sleuth/challenge-description.png)
 
 ## 2. The Step-by-Step Solution
 To solve this challenge safely without executing the file or triggering Windows Defender, I used a basic text editor to inspect the raw data.
@@ -21,7 +21,7 @@ To solve this challenge safely without executing the file or triggering Windows 
 
 **Step 3:** Knowing that the flag follows a standard format, I used the built-in "Find" shortcut (`Ctrl + F`) to search the raw data for the string: `picoCTF`.
 
-![Notepad Search Process](images/forensics-neophyte/notepad-search.png)
+![Notepad Search Process](images/disk-disk-sleuth/notepad-search.png)
 
 **Step 4:** The search successfully jumped straight to the plain-text flag embedded within the otherwise unreadable file data.
 
