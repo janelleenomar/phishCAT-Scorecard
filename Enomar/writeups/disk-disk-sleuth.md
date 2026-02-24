@@ -5,7 +5,7 @@
 | **Event** | picoCTF |
 | **Category** | Forensics |
 | **Difficulty** | Medium |
-| **Target File** | `target_file` |
+| **Target File** | `dds1-alpine.flag.img` |
 
 ## 1. The Challenge Scenario
 We were provided with a file to analyze for a hidden flag. However, attempting to open or execute the file normally resulted in Windows blocking the action, likely due to security mechanisms flagging the unknown or potentially suspicious file format. The objective was to find a safe way to inspect the file's contents and extract the flag.
