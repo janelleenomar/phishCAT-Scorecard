@@ -77,7 +77,7 @@ This member studies how web applications work, how vulnerabilities occur, and ho
 
 ---
 
-## 🕵️ Member 4 – OSINT Specialist
+## 🕵️ Member 4 – Forensics Specialist
 
 ### 📚 Focus Area: Open Source Intelligence
 
