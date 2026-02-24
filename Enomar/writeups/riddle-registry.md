@@ -8,7 +8,7 @@
 | **Target File** | PDF Document (`Hidden Confidential Document`) |
 
 ## 1. The Challenge Scenario
-We were provided with a peculiar PDF filled with garbled nonsense and blacked-out text. The description explicitly warned that the visible text was just a decoy and directed the investigation toward uncovering a hidden flag within the file's metadata.
+A peculiar PDF was provided filled with garbled nonsense and blacked-out text. The description explicitly warned that the visible text was just a decoy and directed the investigation toward uncovering a hidden flag within the file's metadata.
 
 ![Challenge Description from picoCTF](images/riddle-registry/challenge-description.png)
 
