@@ -9,11 +9,7 @@
 
 ## 1. The Challenge Scenario
 
-A file named **`file`** was provided that appeared unusable because it had **no file extension**. Since the file type was unknown, it could not be opened normally.
-
-The challenge description suggested that the file might seem broken, but that **a couple of bytes could make all the difference**, implying that the file might only need a small modification to be restored.
-
-The objective was to determine the correct file format and recover the hidden flag.
+We were provided with a file named **`file`** that appeared unusable because it had **no file extension**. Since the file type was unknown, it could not be opened normally. The challenge description suggested that the file might seem broken, but that **a couple of bytes could make all the difference**, implying that the file might only need a small modification to be restored. The objective was to determine the correct file format and recover the hidden flag.
 
 ![Corrupted file Challenge Description](images/corrupted-file/challenge-description.png)
 
@@ -31,8 +27,6 @@ The file had **no extension**, which meant the operating system could not determ
 
 Since the file size was small (around 9 KB), I suspected it might be a simple image file.
 
----
-
 **Step 2:** To determine the actual file type, I opened the file using **Notepad**. At the very beginning of the file contents, I noticed the text:
 
 ```
@@ -41,7 +35,7 @@ JFIF
 
 This is part of the **JFIF file header**, which indicates that the file is supposed to be a **JFIF image**. This gave a clear clue about the correct file format.
 
----
+![Hex/strings view showing the JFIF marker near the file header](images/corrupted-file/file-header.png)
 
 **Step 3:** Based on this information, I renamed the file to:
 
@@ -51,13 +45,9 @@ file.jfif
 
 After changing the extension to **JFIF**, the file became viewable as an image.
 
----
-
 **Step 4:** I opened the restored image file and saw a **plain background image containing red text**, which displayed the flag directly.
 
 This confirmed that the file was not truly corrupted — it only needed the correct format to be recognized.
-
----
 
 ## 3. The Findings
 
@@ -69,7 +59,7 @@ picoCTF{r3st0r1ng_th3_by73s_b67c1558}
 
 **Target Found:** `picoCTF{r3st0r1ng_th3_by73s_b67c1558}`
 
----
+![Restored image showing the flag in red text](images/corrupted-file/restored-image.jfif)
 
 ## 4. Conclusion
 
