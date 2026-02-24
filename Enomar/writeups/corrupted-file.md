@@ -23,9 +23,7 @@ To solve this challenge, I identified the correct file format and restored the f
 file
 ```
 
-The file had **no extension**, which meant the operating system could not determine how to open it.
-
-Since the file size was small (around 9 KB), I suspected it might be a simple image file.
+The file had **no extension**, which meant the operating system could not determine how to open it. Since the file size was small (around 9 KB), I suspected it might be a simple image file.
 
 **Step 2:** To determine the actual file type, I opened the file using **Notepad**. At the very beginning of the file contents, I noticed the text:
 
@@ -45,9 +43,7 @@ file.jfif
 
 After changing the extension to **JFIF**, the file became viewable as an image.
 
-**Step 4:** I opened the restored image file and saw a **plain background image containing red text**, which displayed the flag directly.
-
-This confirmed that the file was not truly corrupted — it only needed the correct format to be recognized.
+**Step 4:** I opened the restored image file and saw a **plain background image containing red text**, which displayed the flag directly. This confirmed that the file was not truly corrupted — it only needed the correct format to be recognized.
 
 ## 3. The Findings
 
@@ -63,8 +59,4 @@ picoCTF{r3st0r1ng_th3_by73s_b67c1558}
 
 ## 4. Conclusion
 
-This challenge demonstrated how files can appear corrupted when they are simply **missing their proper format information**.
-
-By inspecting the file contents using a text editor, it was possible to identify the **JFIF file signature**, which revealed the correct file type. Assigning the proper extension allowed the file to be opened successfully.
-
-This challenge highlights the importance of checking file headers when dealing with seemingly corrupted files, since a few bytes can reveal the true format of a file.
+This challenge demonstrated how files can appear corrupted when they are simply **missing their proper format information**. By inspecting the file contents using a text editor, it was possible to identify the **JFIF file signature**, which revealed the correct file type. Assigning the proper extension allowed the file to be opened successfully. This challenge highlights the importance of checking file headers when dealing with seemingly corrupted files, since a few bytes can reveal the true format of a file.
