@@ -9,7 +9,7 @@
 
 ## 1. The Challenge Scenario
 
-We were provided with a file named **`file`** that appeared unusable because it had **no file extension**. Since the file type was unknown, it could not be opened normally. The challenge description suggested that the file might seem broken, but that **a couple of bytes could make all the difference**, implying that the file might only need a small modification to be restored. The objective was to determine the correct file format and recover the hidden flag.
+A file named **`file`** was provided that appeared unusable because it had **no file extension**. Since the file type was unknown, it could not be opened normally. The challenge description suggested that the file might seem broken, but that **a couple of bytes could make all the difference**, implying that the file might only need a small modification to be restored. The objective was to determine the correct file format and recover the hidden flag.
 
 ![Corrupted file Challenge Description](images/corrupted-file/challenge-description.png)
 
