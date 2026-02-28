@@ -16,6 +16,27 @@ The goal of this level is to log into the Bandit game server using the provided 
 
 ## 3. Technical Process (Terminal Evidence)
 
+The following terminal session shows the connection to the server and the retrieval of the Level 1 password:
+
+```bash
+# Connect to the game server
+ssh bandit0@bandit.labs.overthewire.org -p 2220
+
+# System prompts for password:
+# bandit0@bandit.labs.overthewire.org's password: [type 'bandit0']
+
+# List the files in the home directory
+bandit0@bandit:~$ ls
+readme
+
+# Read the contents of the 'readme' file
+bandit0@bandit:~$ cat readme
+ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If
+
+# Logout of the session
+bandit0@bandit:~$ exit
+```
+
 <img width="244" height="512" alt="bandit0" src="https://github.com/user-attachments/assets/4a220f15-f7ad-4dd1-bdd5-c55c09cd50a1" />
 <img width="512" height="227" alt="bandit00" src="https://github.com/user-attachments/assets/6f60d07a-85fa-4248-99e5-3d9b6a4e8572" />
 
