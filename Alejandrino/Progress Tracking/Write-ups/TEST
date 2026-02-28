@@ -1,0 +1,59 @@
+TEST
+
+Bandit Level 0 $\rightarrow$ Level 1 Write-up
+
+### **1. Objective**
+
+The goal of this level is to log into the Bandit game server using the provided credentials and retrieve the password for Level 1. The password is stored in a file named **`readme`** located in the home directory.
+
+---
+
+### **2. Connection Details**
+
+* **Host:** `bandit.labs.overthewire.org`
+* **Port:** `2220`
+* **Username:** `bandit0`
+* **Password:** `bandit0`
+
+---
+
+### **3. Technical Process (Terminal Evidence)**
+
+Below is the terminal flow required to connect, locate the file, and extract the password:
+
+```bash
+# 1. Connect to the OverTheWire server via SSH on port 2220
+ssh bandit0@bandit.labs.overthewire.org -p 2220
+
+# [When prompted for the password, type: bandit0]
+
+# 2. Confirm the current working directory
+bandit0@bandit:~$ pwd
+/home/bandit0
+
+# 3. List the files in the home directory to confirm 'readme' exists
+bandit0@bandit:~$ ls
+readme
+
+# 4. Use 'cat' to display the content of the 'readme' file
+bandit0@bandit:~$ cat readme
+ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If
+
+# 5. Exit the session
+bandit0@bandit:~$ exit
+
+```
+
+---
+
+### **4. Key Takeaways & Commands**
+
+* **`ssh`**: Used to log into the remote game server.
+* **`ls`**: Used to list the files in the directory to find the `readme` file.
+* **`cat`**: Used to read the contents of the file to see the password.
+
+---
+
+### **5. Password Discovered**
+
+**`ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If`**
