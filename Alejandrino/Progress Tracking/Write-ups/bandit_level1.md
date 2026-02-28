@@ -16,28 +16,26 @@ The goal is to find the password for the next level, which is stored in a file c
 
 ## 3. Technical Process (Terminal Evidence)
 
-The following terminal session shows the connection to the server and the retrieval of the Level 1 password:
+In this level, using `cat -` fails because the terminal expects a command flag or standard input. We must use the file's relative path to read it.
 
 ```bash
-# Connect to the game server
-ssh bandit0@bandit.labs.overthewire.org -p 2220
+# Connect to the game server using the Level 1 password
+ssh bandit1@bandit.labs.overthewire.org -p 2220
 
-# System prompts for password:
-# bandit0@bandit.labs.overthewire.org's password: [type 'bandit0']
+# List files to confirm the existence of the '-' file
+bandit1@bandit:~$ ls
+-
 
-# List the files in the home directory
-bandit0@bandit:~$ ls
-readme
+# Attempting to read using 'cat -' would fail/hang.
+# Instead, we specify the path:
+bandit1@bandit:~$ cat ./-
+2634ebS9A06EBn9p4BNELrg9sgY9tkS8
 
-# Read the contents of the 'readme' file
-bandit0@bandit:~$ cat readme
-ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If
-
-# Logout of the session
-bandit0@bandit:~$ exit
+# Logout
+bandit1@bandit:~$ exit
 ```
 
----<img width="216" height="512" alt="bandit1" src="https://github.com/user-attachments/assets/f1e862b7-ec49-489c-a858-5bf33b5d33a7" />
+<img width="216" height="512" alt="bandit1" src="https://github.com/user-attachments/assets/f1e862b7-ec49-489c-a858-5bf33b5d33a7" />
 
 ---
 
