@@ -16,6 +16,27 @@ The goal is to find the password for the next level, which is stored in a file c
 
 ## 3. Technical Process (Terminal Evidence)
 
+The following terminal session shows the connection to the server and the retrieval of the Level 1 password:
+
+```bash
+# Connect to the game server
+ssh bandit0@bandit.labs.overthewire.org -p 2220
+
+# System prompts for password:
+# bandit0@bandit.labs.overthewire.org's password: [type 'bandit0']
+
+# List the files in the home directory
+bandit0@bandit:~$ ls
+readme
+
+# Read the contents of the 'readme' file
+bandit0@bandit:~$ cat readme
+ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If
+
+# Logout of the session
+bandit0@bandit:~$ exit
+```
+
 ---<img width="216" height="512" alt="bandit1" src="https://github.com/user-attachments/assets/f1e862b7-ec49-489c-a858-5bf33b5d33a7" />
 
 ---
