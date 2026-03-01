@@ -1,11 +1,7 @@
-# OverTheWire: Bandit Level 5 → Level 6
+# OverTheWire: Bandit Level 4 → Level 5
 
 ## 1. Objective
-The goal is to find the password for the next level stored in a file somewhere under the `inhere` directory. The file has three specific properties:
-
-- Human-readable  
-- 1033 bytes in size  
-- Not executable  
+The goal is to find the password for the next level stored in the only human-readable file within the `inhere` directory.
 
 ---
 
@@ -13,48 +9,63 @@ The goal is to find the password for the next level stored in a file somewhere u
 
 - **Host:** `bandit.labs.overthewire.org`  
 - **Port:** `2220`  
-- **Username:** `bandit5`  
-- **Password:** `4oQYVPkaZubhtS6dbZ6YpGvS7p9v78iz`  
+- **Username:** `bandit4`  
+- **Password:** `2WmrDFRmJiQ3IPxneAaMGhap0pFhF3NJ`  
 
 ---
 
 ## 3. Technical Process (Terminal Evidence)
 
-The `inhere` directory contains many nested folders, making a manual search difficult. I used the `find` command to filter for the exact file properties.
+The directory contains multiple files prefixed with a dash (e.g., `-file01`), which are normally interpreted as command flags.
 
 ```bash
-# Connect to the server
-ssh bandit5@bandit.labs.overthewire.org -p 2220
+# Move into the target directory
+bandit4@bandit:~$ cd inhere
 
-# Use 'find' to locate the file based on the given criteria:
-# .             -> Search starting from the current directory
-# -type f       -> Look specifically for files (not directories)
-# -size 1033c   -> Look for a file exactly 1033 bytes ('c' stands for bytes)
-# ! -executable -> Look for files that are NOT executable
-bandit5@bandit:~$ find . -type f -size 1033c ! -executable
-./inhere/maybehere07/.file2
+# Use 'file' with a wildcard and path to identify the data type of all files
+bandit4@bandit:~/inhere$ file ./*
+./-file00: data
+./-file01: OpenPGP Public Key
+./-file02: OpenPGP Public Key
+./-file03: data
+./-file04: data
+./-file05: data
+./-file06: data
+./-file07: ASCII text
+./-file08: data
+./-file09: data
 
-# Read the contents of the discovered file
-bandit5@bandit:~$ cat ./inhere/maybehere07/.file2
-HWasnPhtq9AVKe0dmk45nxy20cvUA6EG
+# Read the file identified as 'ASCII text' using '--' to signal the end of options
+bandit4@bandit:~/inhere$ cat -- -file07
+4oQYVPkaZubhtS6dbZ6YpGvS7p9v78iz
 
-# Logout
-bandit5@bandit:~$ exit
+# Exit
+bandit4@bandit:~$ exit
 ```
-
-<img width="512" height="254" alt="image" src="https://github.com/user-attachments/assets/48a1a59c-bb5c-442e-b0eb-7256d049c2ae" />
 
 ---
 
 ## 4. Key Takeaways & Commands
 
-- **`find`** — A highly versatile tool for searching the file system using specific filters.  
-- **`-size 1033c`** — The `c` suffix specifies bytes. Without it, `find` may search by block size instead.  
-- **`! -executable`** — The exclamation mark acts as a logical NOT operator, excluding files with execution permissions.  
-- **`-type f`** — Ensures that only regular files are returned, ignoring directories.  
+- **`file`** — Determines file types by examining their internal data structure (magic bytes).  
+- **`--` (Double Dash)** — Signals the end of command options, allowing filenames beginning with `-` to be interpreted correctly.  
+- **`*` (Wildcard)** — Used to apply a command to multiple files at once.  
+
+<img width="512" height="252" alt="image" src="https://github.com/user-attachments/assets/2a1a583e-88c9-4b29-b6d8-a36b3b36aa36" />
 
 ---
 
-## 5. Password Discovered
+## 5. Reflection & Lessons Learned
 
-**Level 6 Password:** `HWasnPhtq9AVKe0dmk45nxy20cvUA6EG`
+This level reinforced important Linux shell concepts:
+
+- **Filenames Are Just Labels** — A filename can resemble a command flag (e.g., `-file07`), which can break standard commands. Using `./` or `--` clarifies intent to the shell.  
+- **Identifying Human-Readable Content** — Instead of blindly using `cat` on every file, the `file` command provides a safer and more professional method to identify readable text.  
+- **Efficiency with Wildcards** — Using `file ./*` is faster and reduces errors compared to checking each file individually.  
+- **Precision in Syntax** — Linux commands require exact syntax. Even small mistakes can result in usage errors, reinforcing the importance of attention to detail.  
+
+---
+
+## 6. Password Discovered
+
+**Level 5 Password:** `4oQYVPkaZubhtS6dbZ6YpGvS7p9v78iz`
