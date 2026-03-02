@@ -3,4 +3,4 @@
 
 or can be like this for shorter
 
-<img width="975" height="242" alt="image" src="https://github.com/user-attachments/assets/f0aeb5f3-f00b-4576-b3c7-9efe20f6546c" />
+<img width="811" height="238" alt="image" src="https://github.com/user-attachments/assets/85b8ec3c-7062-4a76-9f52-085be4beb722" />
