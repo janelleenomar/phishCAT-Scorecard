@@ -59,7 +59,7 @@ picoCTF{brut4_f0rc4_cbb8faa7}
 ```
 
 Success.
-
+![CanYouSee Challenge Description](images/canyousee/challenge-description.png)
 ---
 
 ## 🏁 Flag
