@@ -38,15 +38,19 @@ Found HTML comment:
 <!-- ABGR: Wnpx - grzcbenel olcnff: hfr urnqre "K-Qri-Npprff: lrf" -->
 <!-- Remove before pushing to production! -->
 
+---
+
 ## Step 3 - Decode ROT13 (example)
 echo 'ABGR: Wnpx - grzcbenel olcnff: hfr urnqre "K-Qri-Npprff: lrf"' \
   | tr 'A-Za-z' 'N-ZA-Mn-za-m'
-# -> NOTE: Jack - temporary bypass: use header "X-Dev-Access: yes"
+  
+---
 
 ### Step 4 - Using Burp Suite:
 
 By turning on intercept mode and sending the requests to the repeater, you can access the header requests.
 Edi the header requests and add 'X-Dev-Access: Yes'
+
 ---
 
 ### Step 5 - Forwarding the Request:
@@ -58,15 +62,15 @@ Access Granted!
 picoCTF{brut4_f0rc4_cbb8faa7}
 ```
 
-Success.
-![CanYouSee Challenge Description](CracktheGate1.png)
+
 ---
 
 ## 🏁 Flag
 
 ```text
 picoCTF{brut4_f0rc4_cbb8faa7}```
-
+Success.
+![CanYouSee Challenge Description](CracktheGate1Flag.png)
 ---
 
 ## 🔬 Technical Insight
