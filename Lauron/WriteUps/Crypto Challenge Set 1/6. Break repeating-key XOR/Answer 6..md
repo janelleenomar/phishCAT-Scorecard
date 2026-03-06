@@ -27,5 +27,8 @@ When I finally decrypted it, the lyrics to the “Play That Funky Music” by Va
 <img width="583" height="644" alt="image" src="https://github.com/user-attachments/assets/1669553c-7715-4337-a6b7-de63591ec71d" />
 
 Decrypted Text:
-<img width="474" height="804" alt="image" src="https://github.com/user-attachments/assets/624b67e9-2e71-4d9c-aa87-b9e9c6dcc5d6" /> <img width="572" height="818" alt="image" src="https://github.com/user-attachments/assets/141b8347-98d2-4e34-bc85-a94e6ff4e069" />
+
+<img width="474" height="804" alt="image" src="https://github.com/user-attachments/assets/624b67e9-2e71-4d9c-aa87-b9e9c6dcc5d6" /> 
+
+<img width="572" height="818" alt="image" src="https://github.com/user-attachments/assets/141b8347-98d2-4e34-bc85-a94e6ff4e069" />
 
