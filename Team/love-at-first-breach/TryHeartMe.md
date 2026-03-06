@@ -126,6 +126,7 @@ changed to
 ```
 "role": "admin"
 ```
+<img width="642" height="437" alt="image" src="https://github.com/user-attachments/assets/877a25af-18f1-49db-9395-edf7db57e884" />
 
 After replacing the cookie with the modified token and refreshing the page, an **admin-only section** appeared in the shop.
 
@@ -134,6 +135,8 @@ After replacing the cookie with the modified token and refreshing the page, an *
 ### Step 6: Purchasing the Hidden Flag
 
 With the **admin role** and **10,000 credits**, the restricted shop item became visible:
+<img width="878" height="694" alt="image" src="https://github.com/user-attachments/assets/979fab48-9e41-496b-84e2-3847865c3e21" />
+<img width="1163" height="440" alt="image" src="https://github.com/user-attachments/assets/da815025-0652-4964-89db-a85a9476fdce" />
 
 ```
 ValenFlag
@@ -143,6 +146,8 @@ Price: 777 credits
 We successfully purchased the item.
 
 After completing the transaction, the application redirected us to the **receipt page**, where the challenge flag was revealed.
+<img width="1122" height="317" alt="image" src="https://github.com/user-attachments/assets/18e654c7-a9e9-42e8-ae17-df33b67d059d" />
+
 
 ---
 
@@ -160,6 +165,7 @@ This allowed full control over the user session without authentication checks on
 ```
 THM{v4l3nt1n3_jwt_c00k13_t4mp3r_4dm1n_sh0p}
 ```
+<img width="555" height="219" alt="image" src="https://github.com/user-attachments/assets/017a986c-7f51-4e48-bbca-538ac08a367a" />
 
 ---
 
