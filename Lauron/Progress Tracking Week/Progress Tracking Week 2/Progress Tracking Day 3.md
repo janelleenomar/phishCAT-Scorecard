@@ -8,7 +8,7 @@
 
 - [x] Training time today: 3 hours 0 minutes
 - [x] Goal met? **Yes**
-- [ ] Consistency streak: **1 day**
+- [x] Consistency streak: **1 day**
 
 **Points:** 10 (2+ hours)
 
@@ -42,7 +42,7 @@
 
 - [ ] Web Exploitation
 - [ ] Binary Exploitation / Pwn
-- [✓] Cryptography
+- [x] Cryptography
 - [ ] Reverse Engineering
 - [ ] Forensics
 - [ ] OSINT
