@@ -19,10 +19,10 @@ We accessed the target application and identified it as a React + Node.js web ap
 **Step 2: Identifying the Vulnerability**
 
 Based on the application's tech stack, we identified it as potentially vulnerable to **React2Shell (CVE-2025-55182)** — a critical vulnerability that enables server-side command execution through the React rendering pipeline. This CVE was publicly disclosed in early December alongside related source code leakage and DoS CVEs.
-
+![LoveNote Challenge Description](images/corp-website/web-corp2.webp)
 **Step 3: Confirming Exploitability**
 
-We referenced the official exploit payload detailed in **Task 6** of TryHackMe's dedicated React2Shell room (`tryhackme.com/room/react2shellcve202555182`). The payload leverages Node.js's `execSync` function, which becomes accessible due to the improper sandboxing of server-side rendering in the vulnerable React configuration.
+In this part of the challenge, we basically used the exploit payload from Task 6 in the React2Shell room on TryHackMe. The whole issue is that the server-side rendering for React wasn't sandboxed right, which left the door wide open for us. This allowed us to tap into Node.js’s `execSync` function, letting us run commands directly on the server and get that initial foot in the door.
 
 **Step 4: Reading the User Flag**
 
