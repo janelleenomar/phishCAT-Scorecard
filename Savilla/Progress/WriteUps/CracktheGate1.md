@@ -67,8 +67,8 @@ picoCTF{brut4_f0rc4_cbb8faa7}
 
 ## 🏁 Flag
 
-```text
-picoCTF{brut4_f0rc4_cbb8faa7}```
+
+picoCTF{brut4_f0rc4_cbb8faa7}
 Success.
 ![CanYouSee Challenge Description](CracktheGate1Flag.png)
 ---
