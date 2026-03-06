@@ -6,9 +6,9 @@
 
 ### 1. Time Investment
 
-- [✓] Training time today: 3 hours 0 minutes
+- [x] Training time today: 3 hours 0 minutes
 - [ ] Goal met? **No** (Stuck on Challenge 6 logic)
-- [ ] Consistency streak: **4 days**
+- [x] Consistency streak: **4 days**
 
 **Points:** 10 (2+ hours)
 
@@ -30,7 +30,7 @@
 
 - [ ] Created writeup (+10 pts)
 - [ ] Reviewed 3+ writeups from others (+5 pts)
-- [✓] Learned new technique/tool (+10 pts) -> *Researching Hamming Distance*
+- [x] Learned new technique/tool (+10 pts) -> *Researching Hamming Distance*
 - [ ] Updated cheat sheet (+5 pts)
 - [ ] Practiced timed challenge (+5 pts)
 
@@ -41,11 +41,11 @@
 ### 4. Category Focus Today
 - [ ] Web Exploitation
 - [ ] Binary Exploitation / Pwn
-- [✓] Cryptography (Researching Vigenère breaking)
+- [x] Cryptography (Researching Vigenère breaking)
 - [ ] Reverse Engineering
 - [ ] Forensics
 - [ ] OSIN
-- [✓] Other Python to be specific
+- [x] Other Python to be specific
 
 **Primary Specialty (Cryptography):** 180 minutes
 
