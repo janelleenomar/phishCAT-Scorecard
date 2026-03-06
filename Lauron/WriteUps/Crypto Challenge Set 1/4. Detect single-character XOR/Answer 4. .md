@@ -18,6 +18,7 @@ The biggest challenge was telling the computer what “English” looks like. So
 
 Instead of me looking at the screen and guessing it, I let the math do the work by using allof my gathered resources(knowledge from different ideas). The line that got the highest “score” was the winner
 <img width="946" height="592" alt="image" src="https://github.com/user-attachments/assets/b807f004-a20f-4da5-97de-74a780cc98db" />
+
 As shown in the image, the script successfully identified the one line of English text buried in the file
 The decrypted message was “Now that the party is jumping”
 key found “53”
