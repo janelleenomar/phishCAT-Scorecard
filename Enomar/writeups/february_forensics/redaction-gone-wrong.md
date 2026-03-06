@@ -10,14 +10,14 @@
 ## 1. The Challenge Scenario
 The challenge provided a report containing critical data, explaining that while some information was redacted correctly, other parts were not. The objective was to find an important key that failed to be properly redacted, playing on the hint, "Now you DON'T see me".
 
-![Redaction gone wrong Challenge Description](images/redaction_gone_wrong/challenge-description.png)
+![Redaction gone wrong Challenge Description](images/redaction-gone-wrong/challenge-description.png)
 
 ## 2. The Step-by-Step Solution
 To solve this, I relied on a simple extraction technique to uncover text hidden beneath visual layers.
 
 **Step 1:** I downloaded the challenge file and opened the PDF. Upon inspection, I noticed several lines of text that appeared to be redacted with black highlighting.
 
-![Redacted PDF View](images/redaction_gone_wrong/pdf-redacted-view.png)
+![Redacted PDF View](images/redaction-gone-wrong/pdf-redacted-view.png)
 
 **Step 2:** Knowing that sometimes digital redaction is merely a visual overlay rather than actual data removal, I used `Ctrl + A` to highlight and select all the text contents inside the PDF document.
 
@@ -25,7 +25,7 @@ To solve this, I relied on a simple extraction technique to uncover text hidden 
 
 **Step 4:** Stripping away the PDF's visual formatting by pasting it into Notepad revealed the raw text, exposing the hidden flag that was visually covered by the black redaction blocks.
 
-![Notepad Revealed Text](images/redaction_gone_wrong/notepad-revealed-text.png)
+![Notepad Revealed Text](images/redaction-gone-wrong/notepad-revealed-text.png)
 
 ## 3. The Findings
 Bypassing the flawed visual redaction successfully revealed the hidden text:
