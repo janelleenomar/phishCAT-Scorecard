@@ -61,7 +61,7 @@ We navigated to the challenge web application and uploaded both generated files 
 
 By exploiting the mathematical weakness of the MD5 hashing algorithm, we successfully engineered two distinct image files with an identical hash digest. Uploading these to the challenge application allowed us to bypass its integrity check, revealing the flag:
 
-![LoveNote Challenge Description](images/when-hearts-collide/puppies.jpg)
+![LoveNote Challenge Description](images/when-hearts-collide/puppy.png)
 
 ```
 THM{hash_puppies_4_all}
