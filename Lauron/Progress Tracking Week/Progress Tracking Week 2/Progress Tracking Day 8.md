@@ -39,10 +39,10 @@
 ### 4. Category Focus Today
 - [ ] Web Exploitation
 - [ ] Binary Exploitation / Pwn
-- [✓] Cryptography (Challenge 6 debugging): 60 minutes
+- [x] Cryptography (Challenge 6 debugging): 60 minutes
 - [ ] Reverse Engineering
 - [ ] Forensics
-- [✓] OSINT / Web (TryHackMe Event): 120 minutes
+- [x] OSINT / Web (TryHackMe Event): 120 minutes
 
 **Primary Specialty (Cryptography):** 60 minutes
 **Secondary Specialty (THM Event):** 120 minutes
