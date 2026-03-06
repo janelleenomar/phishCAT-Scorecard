@@ -42,11 +42,11 @@
 
 - [ ] Web Exploitation
 - [ ] Binary Exploitation / Pwn
-- [✓] Cryptography (Researching Vigenère breaking)
+- [x] Cryptography (Researching Vigenère breaking)
 - [ ] Reverse Engineering
 - [ ] Forensics
 - [ ] OSIN
-- [✓] Other Python to be specific
+- [x] Other Python to be specific
 
 **Primary Specialty (Cryptography):** 120 minutes
 
