@@ -4,16 +4,13 @@
 | :--- | :--- |
 | **Event** | TryHackMe — When Hearts Collide |
 | **Category** | Cryptography / Web |
-| **Difficulty** | Easy |
-| **Target URL** | `https://tryhackme.com/room/lafb2026e1` |
+| **Difficulty** | Medium |
 
 ---
 
 ## 1. The Challenge Scenario
 
-We were presented with an MD5 hash collision puzzle themed around dog pictures. The room description hinted to us that two dog pictures share the same MD5 hash — a deliberate pointer to the concept of hash collisions, where two different files with different content can produce the exact same hash digest.
-
-We noted that a hash collision occurs when two distinct inputs to a hash function yield the same output. While collisions are theoretically possible with any hash function, we knew that MD5 is particularly vulnerable because researchers have demonstrated practical, fast methods to engineer them. We identified that this challenge leverages that weakness to simulate a real-world scenario where trust in MD5-based integrity checks is exploited.
+For this part, we were hit with a puzzle involving MD5 hash collisions themed around dog pictures. The room basically gave us a heads-up that two different images of dogs actually share the exact same MD5 hash. It’s a classic example of a hash collision, where two totally unique files end up with the same digital fingerprint. Even though this can technically happen with any hash function, MD5 is notorious for being broken because it's super easy for researchers to purposefully engineer these overlaps. This challenge really drives home why you can't just blindly trust MD5 for integrity checks anymore, since it's way too easy to exploit.
 
 ---
 
@@ -46,7 +43,8 @@ docker run --rm -v $PWD:/work -w /work \
   brimstone/fastcoll --prefixfile thm-ab-bg-1803.png \
   -o twin_a.jpg twin_b.jpg
 ```
-![LoveNote Challenge Description](images/when-hearts-collide/commandline.webp)
+![LoveNote Challenge Description](images/when-hearts-collide/commandline.jpg)
+
 After execution, we confirmed that both files had identical MD5 digests despite being different files by running:
 
 ```bash
@@ -62,6 +60,8 @@ We navigated to the challenge web application and uploaded both generated files 
 ## 3. The Findings
 
 By exploiting the mathematical weakness of the MD5 hashing algorithm, we successfully engineered two distinct image files with an identical hash digest. Uploading these to the challenge application allowed us to bypass its integrity check, revealing the flag:
+
+![LoveNote Challenge Description](images/when-hearts-collide/puppies.jpg)
 
 ```
 THM{hash_puppies_4_all}
@@ -80,8 +80,6 @@ Through this process, we made the following key technical observations:
 
 ## 4. Conclusion
 
-Through this challenge, we gained hands-on experience with a real-world cryptographic weakness. While MD5 may still appear in legacy systems and checksums, we were reminded that it has been considered cryptographically broken since the early 2000s, with practical collision attacks publicly demonstrated.
+This challenge was a great way to get some hands-on experience with a real-world crypto weakness. Even though you still see MD5 popping up in older systems or for basic file checks, it’s basically been considered broken since the early 2000s when people figured out how to actually force collisions.
 
-The core lesson we took away: algorithm strength matters just as much as implementation. A system can use hashing correctly in design, but if it selects a broken algorithm like MD5, the entire trust model collapses. We recommend using collision-resistant alternatives such as SHA-256 or SHA-3 for any security-sensitive hash verification.
-
-*As the flag itself reminds us — hash puppies are for all. 🐶*
+The biggest takeaway for us was that the strength of the algorithm matters just as much as how you use it. You can design a system perfectly, but if you pick a weak link like MD5, the whole security model just falls apart. Honestly, if you're doing anything security-sensitive, you're much better off sticking to collision-resistant options like SHA-256 or SHA-3.
