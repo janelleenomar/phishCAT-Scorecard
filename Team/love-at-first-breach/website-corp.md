@@ -51,7 +51,7 @@ Once on the machine, we enumerated sudo permissions and discovered the current u
 ```bash
 sudo python3 -c 'import os; os.system("/bin/bash")'
 ```
-
+![LoveNote Challenge Description](images/corp-website/python.webp)
 This granted us a root-level shell, completing full system compromise.
 
 ## 3. The Findings
