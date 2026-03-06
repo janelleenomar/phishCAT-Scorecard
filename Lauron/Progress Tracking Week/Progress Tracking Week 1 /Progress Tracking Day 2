@@ -31,8 +31,8 @@
 - [x] Created writeup for at least 1 challenge (+10 pts)
 - [ ] Reviewed 3+ writeups from others (+5 pts)
 - [x] Learned new technique/tool (+10 pts)
-- [ ] Updated cheat sheet (+5 pts)
-- [x] Practiced timed challenge (+5 pts)
+- [x] Updated cheat sheet (+5 pts)
+- [ ] Practiced timed challenge (+5 pts)
 
 **Quality Points Total: 25**
 
@@ -54,17 +54,19 @@
 ### 5. Reflection (Qualitative)
 
 **What went well today?**
-I’m starting to get the hang of Python’s bitwise operators. After yesterday's struggle with data types, writing the XOR function for Challenge 2 felt much smoother because I knew exactly how to handle the byte arrays from the start.
+After the struggle of Day 1, moving into **Challenge 2** felt much more controlled. I successfully implemented a bitwise XOR function to combine two hex buffers. Seeing the output match the expected result gave me a huge boost in confidence regarding my Python setup.
 
 **What challenged you?**
-Moving into Challenge 3 was a jump in difficulty because it’s not just about shifting bits anymore—it’s about analysis. Figuring out how to "score" a piece of text based on character frequency was a new concept that required me to think more like a cryptanalyst and less like a coder.
+The challenge was ensuring the two buffers were exactly the same length before performing the operation. I had to be careful with how Python handles byte objects versus strings to avoid "TypeError" messages when doing the actual math.
 
 ---
 
 **Key learning:**
-I learned that the XOR operation is its own inverse; if you XOR a secret with a key, XORing the result with that same key gives you the secret back. This is a fundamental "building block" for almost everything I'll do in the next few challenges.
+I learned the fundamental rule of a Fixed XOR: the buffers must be equal in length. I also practiced using a `for` loop to iterate through two byte arrays simultaneously to create a new XORed result.
+
+
 
 ---
 
 **Tomorrow's focus:**
-Refining my frequency analysis script to automate the search for the hidden message in Challenge 3 and starting on the "Detect Single-Character XOR" in Challenge 4.
+Resting up so I can tackle **Challenge 3** on Feb 9th. I need to start learning about "Single-byte XOR" and how to automate the search for a hidden message using character frequency.
