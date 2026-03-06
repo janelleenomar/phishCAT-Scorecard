@@ -1,0 +1,70 @@
+# 📊 Individual Progress Scorecard
+
+## Daily Training Log
+
+**Date:** February 11, 2026 | **Training Day:** 5/90
+
+### 1. Time Investment
+
+- [x] Training time today: 2 hours 50 minutes
+- [x] Goal met? **Yes**
+- [x] Consistency streak: **3 days**
+
+**Points:** 10 (2+ hours)
+
+---
+
+### 2. Challenge Completion
+
+| Difficulty      | Challenges Solved | Points Earned |
+| --------------- | ----------------- | ------------- |
+| Easy            |       1 × 5 pts   |        5      |
+| Medium          |       0 × 15 pts  |        0      |
+| Hard            |       0 × 30 pts  |        0      |
+| Expert          |       0 × 50 pts  |        0      |
+| **Daily Total** |                   |     **5** |
+
+---
+
+### 3. Quality Indicators
+
+- [x] Created writeup for at least 1 challenge (+10 pts)
+- [ ] Reviewed 3+ writeups from others (+5 pts)
+- [x] Learned new technique/tool (+10 pts)
+- [ ] Updated cheat sheet (+5 pts)
+- [x] Practiced timed challenge (+5 pts)
+
+**Quality Points Total: 20**
+
+---
+
+### 4. Category Focus Today
+
+- [ ] Web Exploitation
+- [ ] Binary Exploitation / Pwn
+- [✓] Cryptography
+- [ ] Reverse Engineering
+- [ ] Forensics
+- [ ] OSINT
+
+**Primary Specialty (Cryptography):** 170 minutes
+
+---
+
+### 5. Reflection (Qualitative)
+
+**What went well today?**
+Implementing the **Repeating-key XOR** felt like a major step up in my programming skills. I was able to write a function that takes a short key like "ICE" and mathematically "stretches" it across a long sentence. Seeing the final hex output match the challenge perfectly was very satisfying.
+
+**What challenged you?**
+The challenge was the logic of the "cycle." At first, I struggled with how to make the key restart at the beginning once it reached the last letter. I had to learn how to use the **modulo operator (%)** in Python to keep the key index looping correctly without crashing the script.
+
+---
+
+**Key learning:**
+I learned how sequential XOR works. By repeating a key, you create a repeating pattern in the ciphertext. While this makes the encryption stronger than a single byte, it still leaves a "fingerprint" that can be analyzed later—which is exactly what I'll be breaking soon.
+
+---
+
+**Tomorrow's focus:**
+Starting the "Boss Fight" of Set 1: **Challenge 6 (Break repeating-key XOR)**. This will require me to learn about **Hamming Distance** and how to use it to guess the length of a secret key. I'll definitely need to update my cheat sheet for this one.
