@@ -110,7 +110,7 @@ I clicked **Start Attack** and watched the responses. I looked for the one that 
 Access Granted!
 picoCTF{xff_byp4ss_brut3_1c447e47}
 ```
-![CanYouSee Challenge Description](crackthegate2flag.webp)
+![CanYouSee Challenge Description](Pictures/crackthegate2flag.webp)
 ---
 ## Flag
 ```text
