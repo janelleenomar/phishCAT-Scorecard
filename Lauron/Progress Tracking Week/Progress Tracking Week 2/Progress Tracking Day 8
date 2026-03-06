@@ -1,0 +1,68 @@
+# 📊 Individual Progress Scorecard
+
+## Daily Training Log
+
+**Date:** February 14, 2026 | **Training Day:** 8/90
+
+### 1. Time Investment
+
+- [x] Training time today: 3 hours 0 minutes (Total)
+- [x] Goal met? **Yes** (Diversified training)
+- [x] Consistency streak: **8 days**
+
+**Points:** 10 (2+ hours total)
+
+---
+
+### 2. Challenge Completion
+
+| Difficulty      | Challenges Solved | Points Earned |
+| --------------- | ----------------- | ------------- |
+| Easy            |       0 × 5 pts   |        0      |
+| Medium          |       0 × 15 pts  |        0      |
+| Hard            |       0 × 30 pts  |        0      |
+| **Daily Total** |                   |     **0** |
+
+---
+
+### 3. Quality Indicators
+
+- [ ] Created writeup (+10 pts)
+- [x] Participated in a timed event (THM Love at First Breach) (+10 pts)
+- [x] Learned new technique/tool (+10 pts) -> *OSINT/Web Exploration*
+- [ ] Updated cheat sheet (+5 pts)
+
+**Quality Points Total: 20**
+
+---
+
+### 4. Category Focus Today
+- [ ] Web Exploitation
+- [ ] Binary Exploitation / Pwn
+- [✓] Cryptography (Challenge 6 debugging): 60 minutes
+- [ ] Reverse Engineering
+- [ ] Forensics
+- [✓] OSINT / Web (TryHackMe Event): 120 minutes
+
+**Primary Specialty (Cryptography):** 60 minutes
+**Secondary Specialty (THM Event):** 120 minutes
+
+---
+
+### 5. Reflection (Qualitative)
+
+**What went well today?**
+I balanced my long-term goal (Cryptopals) with a live event. Participating in the "Love at First Breach" event was a nice break from the heavy math of Challenge 6. It reminded me that security is a broad field and kept my motivation high even though I'm still "stuck" on the Hamming Distance logic.
+
+**What challenged you?**
+Switching contexts was the hardest part. Going from bitwise XOR theory to the fast-paced challenges of a THM event required a different type of "mental muscle." It also reminded me how much I still need to learn about web-based vulnerabilities.
+
+---
+
+**Key learning:**
+I learned that sometimes stepping away from a problem (like Challenge 6) to work on something else (like THM) actually helps clear the brain fog. I also practiced some basic OSINT techniques that I can eventually add to my general toolkit.
+
+---
+
+**Tomorrow's focus:**
+Heading back into the trenches with Challenge 6. I want to see if my refreshed brain can finally fix the bit-counting error in my Hamming Distance function.
