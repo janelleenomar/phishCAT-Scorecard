@@ -1,0 +1,71 @@
+# 📊 Individual Progress Scorecard
+
+## Daily Training Log
+
+**Date:** February 12, 2026 | **Training Day:** 6/90
+
+### 1. Time Investment
+
+- [x] Training time today: 2 hours 0 minutes
+- [x] Goal met? **No** (Stuck on Challenge 6 logic)
+- [x] Consistency streak: **6 days**
+
+**Points:** 10 (2+ hours)
+
+---
+
+### 2. Challenge Completion
+
+| Difficulty      | Challenges Solved | Points Earned |
+| --------------- | ----------------- | ------------- |
+| Easy            |       0 × 5 pts   |        0      |
+| Medium          |       0 × 15 pts  |        0      |
+| Hard            |       0 × 30 pts  |        0      |
+| Expert          |       0 × 50 pts  |        0      |
+| **Daily Total** |                   |     **0** |
+
+---
+
+### 3. Quality Indicators
+
+- [ ] Created writeup (+10 pts)
+- [ ] Reviewed 3+ writeups from others (+5 pts)
+- [x] Learned new technique/tool (+10 pts) -> *Researching Hamming Distance*
+- [ ] Updated cheat sheet (+5 pts)
+- [ ] Practiced timed challenge (+5 pts)
+
+**Quality Points Total: 10**
+
+---
+
+### 4. Category Focus Today
+
+- [ ] Web Exploitation
+- [ ] Binary Exploitation / Pwn
+- [✓] Cryptography (Researching Vigenère breaking)
+- [ ] Reverse Engineering
+- [ ] Forensics
+- [ ] OSIN
+- [✓] Other Python to be specific
+
+**Primary Specialty (Cryptography):** 120 minutes
+
+---
+
+### 5. Reflection (Qualitative)
+
+**What went well today?**
+I maintained my streak and put in the hours even though I didn't get the "flag." I started reading up on how to calculate Hamming Distance, which is much more complex than the XOR math I did earlier this week.
+
+**What challenged you?**
+I hit a major wall with Challenge 6. Trying to understand how to guess the key size using normalized Hamming Distance feels like a massive jump in difficulty. I spent most of my time today reading and re-reading the instructions without actually solving anything yet. Feeling like i want to give up XD.
+
+---
+
+**Key learning:**
+I learned that in real-world cryptography, you don't always get a "win" every day. Sometimes the "learning" is just realizing how much you don't know yet about bitwise manipulation.
+
+---
+
+**Tomorrow's focus:**
+Continuing the research on Challenge 6 and trying to write a small Python script just to calculate the distance between two strings.
