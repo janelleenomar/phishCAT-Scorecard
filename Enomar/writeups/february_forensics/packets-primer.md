@@ -27,10 +27,10 @@ Instead of setting up a dedicated packet analyzer like Wireshark, I opted for a 
 Opening the file in a text editor successfully revealed the plain text flag without needing to parse the network protocols. 
 
 ```text
-[picoCTF{p4ck37_5h4rk_01b0a0d6}]
+picoCTF{p4ck37_5h4rk_01b0a0d6}
 ```
 
-**Target Found:** `[picoCTF{p4ck37_5h4rk_01b0a0d6}]`
+**Target Found:** `picoCTF{p4ck37_5h4rk_01b0a0d6}`
 
 ## 4. Conclusion
 This task demonstrated that while packet capture (.pcap) files are designed to be read by specialized software, the underlying data they contain is often just unencrypted text. If a flag is transmitted over an unencrypted protocol, a simple text editor or command-line tool (like `strings`) is often all it takes to extract the payload quickly, proving that sometimes the simplest tool is the most efficient.
