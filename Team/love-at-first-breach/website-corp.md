@@ -14,7 +14,7 @@ Basically, this write-up covers how we cracked the Corp Website challenge by usi
 
 **Step 1: Initial Reconnaissance**
 
-We accessed the target application and identified it as a React + Node.js web app. Telltale signs included `_next/` path patterns and React lazy-loaded code snippets visible in the page source. These are characteristic of a Next.js/React application running on a Node.js backend.
+Using the Google DevTools or inspect on the browser, we accessed the target application and identified it as a React + Node.js web app. Signs included `_next/` path patterns and React lazy-loaded code snippets visible in the page source. These are characteristic of a Next.js/React application running on a Node.js backend.
 ![LoveNote Challenge Description](images/corp-website/corp_web.webp)
 **Step 2: Identifying the Vulnerability**
 
@@ -52,6 +52,7 @@ Once on the machine, we enumerated sudo permissions and discovered the current u
 sudo python3 -c 'import os; os.system("/bin/bash")'
 ```
 ![LoveNote Challenge Description](images/corp-website/python.webp)
+
 This granted us a root-level shell, completing full system compromise.
 
 ## 3. The Findings
@@ -60,15 +61,13 @@ With root access achieved, we were able to read all flags on the system.
 
 **User Flag:**
 ```text
-THM{r34ct_2_sh3ll_r3m0t3_c0d3_ex3c}
+THM{R34c7_2_5h311_3xpl017}
 ```
 
 **Root Flag:**
 ```text
-THM{suD0_pyTh0n_1s_d4ng3r0us}
+THM{Pr1v_35c_47_175_f1n357}
 ```
-
-> ⚠️ *Note: Flag values above are illustrative placeholders consistent with TryHackMe formatting. Refer to the actual room for the true flag strings.*
 
 ## 4. Conclusion
 
