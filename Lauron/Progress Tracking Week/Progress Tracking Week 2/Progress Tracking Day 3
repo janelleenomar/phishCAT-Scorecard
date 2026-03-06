@@ -54,7 +54,7 @@
 ### 5. Reflection (Qualitative)
 
 **What went well today?**
-I’m starting to see the "flow" of these challenges. After completing Challenge 2 yesterday, I realized that the logic is building on itself. Today, I felt much more confident using Python to iterate through data without having to Google every single syntax error.
+I’m starting to see the "flow" of these challenges. After completing Challenge 2 last saturday, I realized that the logic is building on itself. Today, I felt much more confident using Python to iterate through data without having to Google every single syntax error.
 
 **What challenged you?**
 Challenge 3 is where the "math" meets the "language." The hardest part was realizing that even if my XOR logic is perfect, the output is still just a bunch of numbers unless I tell Python how to recognize English letters. Tuning the frequency scoring was a real brain-burner.
