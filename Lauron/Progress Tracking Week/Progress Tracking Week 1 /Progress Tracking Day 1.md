@@ -43,7 +43,7 @@ Which categories did you practice?
 
 - [ ] Web Exploitation
 - [ ] Binary Exploitation / Pwn
-- [✓] Cryptography
+- [x] Cryptography
 - [ ] Reverse Engineering
 - [ ] Forensics
 - [ ] OSINT
