@@ -67,7 +67,7 @@ By exploiting the mathematical weakness of the MD5 hashing algorithm, we success
 THM{hash_puppies_4_all}
 ```
 
-**🏁 Flag:** `THM{hash_puppies_4_all}`
+**Flag:** `THM{hash_puppies_4_all}`
 
 Through this process, we made the following key technical observations:
 
@@ -82,4 +82,4 @@ Through this process, we made the following key technical observations:
 
 This challenge was a great way to get some hands-on experience with a real-world crypto weakness. Even though you still see MD5 popping up in older systems or for basic file checks, it’s basically been considered broken since the early 2000s when people figured out how to actually force collisions.
 
-The biggest takeaway for us was that the strength of the algorithm matters just as much as how you use it. You can design a system perfectly, but if you pick a weak link like MD5, the whole security model just falls apart. Honestly, if you're doing anything security-sensitive, you're much better off sticking to collision-resistant options like SHA-256 or SHA-3.
+The biggest takeaway for us was that the strength of the algorithm matters just as much as how you use it. You can design a system perfectly, but if you pick a weak link like MD5, the whole security model just falls apart.
