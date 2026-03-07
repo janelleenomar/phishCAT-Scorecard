@@ -1,6 +1,6 @@
 # 📊 Weekly Progress Summary
 
-**Week:** 1 of 12
+**Week:** 1 of 4
 **Dates:** 02/06/2026 to 02/07/2026
 
 ---
