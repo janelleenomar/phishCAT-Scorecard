@@ -13,7 +13,7 @@
 | Challenges Solved      | 15–25  | 9      | ✗      |
 | Live CTF Participated  | 1–2    | 0      | ✗      |
 | CTF Challenges Solved  | 2–5    | 0      | ✗      |
-| Writeups Created       | 3–5    | 2      | ✗      |
+| Writeups Created       | 3–5    | 9      | ✓      |
 | New Techniques Learned | 2–3    | 3      | ✓      |
 
 ---
@@ -24,10 +24,10 @@
 | -------------------- | ------- |
 | Training Hours       | 20      |
 | Challenges Completed | 45      |
-| Quality Bonuses      | 45      |
+| Quality Bonuses      | 40      |
 | Live CTF Performance | 0       |
 | Writeups & Learning  | 0       |
-| **Weekly Total**     | **110** |
+| **Weekly Total**     | **105** |
 
 ---
 
