@@ -6,7 +6,7 @@
 
 | Metric                 | Target | Actual | Status |
 | ---------------------- | ------ | ------ | ------ |
-| Training Hours         | 15-20  | 2.0    | ☐ ✗    |
+| Training Hours         | 15-20  | 3.0    | ☐ ✗    |
 | Challenges Solved      | 15-25  | 3      | ☐ ✗    |
 | Live CTF Participated  | 1-2    | 0      | ☐ ✗    |
 | CTF Challenges Solved  | 2-5    | 0      | ☐ ✗    |
@@ -30,7 +30,7 @@
     Binary Exploitation:  0.0 hours [        ] 0%
     Cryptography:         0.0 hours [        ] 0%
     Reverse Engineering:  0.0 hours [        ] 0%
-    Forensics:            2.0 hours [========] 100%
+    Forensics:            3.0 hours [========] 100%
     OSINT:                0.0 hours [        ] 0%
 
 ## Skill Level Assessment (Self-Rated 1-10)
