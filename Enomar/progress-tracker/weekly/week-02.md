@@ -6,11 +6,11 @@
 
 | Metric                 | Target | Actual | Status |
 | ---------------------- | ------ | ------ | ------ |
-| Training Hours         | 15-20  | 10.5   | ☐ ✗    |
+| Training Hours         | 15-20  | 11     | ☐ ✗    |
 | Challenges Solved      | 15-25  | 11     | ☐ ✗    |
 | Live CTF Participated  | 1-2    | 1      | ☐ ✓    |
 | CTF Challenges Solved  | 2-5    | 3      | ☐ ✓    |
-| Writeups Created       | 3-5    | 4      | ☐ ✓    |
+| Writeups Created       | 3-5    | 11     | ☐ ✓    |
 | New Techniques Learned | 2-3    | 4      | ☐ ✓    |
 
 ## Weekly Points Breakdown
@@ -21,16 +21,16 @@
 | Challenges Completed | 105     |
 | Quality Bonuses      | 35      |
 | Live CTF Performance | 0       |
-| Writeups & Learning  | 80      |
-| **Weekly Total** | **255** |
+| Writeups & Learning  | 150     |
+| **Weekly Total** | **325** |
 
 ## Category Distribution (Hours This Week)
 
-    Web Exploitation:     5.0 hours [====    ] 48%
+    Web Exploitation:     5.0 hours [====    ] 45%
     Binary Exploitation:  0.0 hours [        ] 0%
     Cryptography:         0.0 hours [        ] 0%
     Reverse Engineering:  0.0 hours [        ] 0%
-    Forensics:            5.5 hours [=====   ] 52%
+    Forensics:            6.0 hours [=====   ] 55%
     OSINT:                0.0 hours [        ] 0%
 
 ## Skill Level Assessment (Self-Rated 1-10)
