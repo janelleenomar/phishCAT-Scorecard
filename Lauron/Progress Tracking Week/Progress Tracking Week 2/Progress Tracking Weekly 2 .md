@@ -1,7 +1,7 @@
 # 📊 Weekly Progress Summary
 
 **Week:** 1 of 13  
-**Dates:** February 06, 2026 to February 14, 2026
+**Dates:** February 09, 2026 to February 14, 2026
 
 ---
 
