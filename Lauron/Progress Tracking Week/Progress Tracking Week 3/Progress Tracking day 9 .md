@@ -46,12 +46,12 @@ Which categories did you practice?
 - [x] Cryptography (Challenge 6 debugging): 30 minutes
 - [ ] Reverse Engineering
 - [ ] Forensics
-- [x] OSINT / Web (TryHackMe Event): 210 minutes
+- [x] OSINT / Web (TryHackMe Event): 180 minutes
 - [ ] Other: ___________
 
-**Primary Specialty:** 120 minutes
+**Primary Specialty:** 30 minutes
 
-**Secondary Specialty:** 30 minutes
+**Secondary Specialty:** 180 minutes
 
 **Other Categories:** _____ minutes
 
