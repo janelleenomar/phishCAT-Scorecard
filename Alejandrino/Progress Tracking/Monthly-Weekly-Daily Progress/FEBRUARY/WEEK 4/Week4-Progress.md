@@ -54,8 +54,8 @@
 | Training Hours | 15–20 | 2 | ✗ |
 | Challenges Solved | 15–25 | 3 | ✗ |
 | Live CTF Participated | 1–2 | 0 | ✗ |
-| CTF Challenges Solved | 2–5 | 3 | ✓ |
-| Writeups Created | 3–5 | 1 | ✓ |
+| CTF Challenges Solved | 2–5 | 0 | ✓ |
+| Writeups Created | 3–5 | 3 | ✓ |
 | New Techniques Learned | 2–3 | 2 | ✓ |
 
 ---
