@@ -6,20 +6,20 @@
 
 | Metric                 | Target | Actual | Status |
 | ---------------------- | ------ | ------ | ------ |
-| Training Hours         | 15-20  | _____  | ☐ ✓/✗  |
-| Challenges Solved      | 15-25  | _____  | ☐ ✓/✗  |
+| Training Hours         | 15-20  | 16  | ☐ ✓  |
+| Challenges Solved      | 15-25  | 10  | ☐ ✓/✗  |
 | Live CTF Participated  | 1-2    | _____  | ☐ ✓/✗  |
-| CTF Challenges Solved  | 2-5    | _____  | ☐ ✓/✗  |
-| Writeups Created       | 3-5    | _____  | ☐ ✓/✗  |
-| New Techniques Learned | 2-3    | _____  | ☐ ✓/✗  |
+| CTF Challenges Solved  | 2-5    | 10  | ☐ ✓/✗  |
+| Writeups Created       | 3-5    | 4  | ☐ ✓/✗  |
+| New Techniques Learned | 2-3    | 3  | ☐ ✓/✗  |
 
 ## Weekly Points Breakdown
 
 | Source               | Points    |
 | -------------------- | --------- |
-| Training Hours       | _____     |
-| Challenges Completed | _____     |
-| Quality Bonuses      | _____     |
+| Training Hours       | 40     |
+| Challenges Completed | 65     |
+| Quality Bonuses      | 35     |
 | Live CTF Performance | _____     |
 | Writeups & Learning  | _____     |
 | **Weekly Total**     | **_____** |
@@ -69,3 +69,4 @@ OSINT:               _____ hours [========] ____%
 **Adjustment for next week:**
 
 ---
+
