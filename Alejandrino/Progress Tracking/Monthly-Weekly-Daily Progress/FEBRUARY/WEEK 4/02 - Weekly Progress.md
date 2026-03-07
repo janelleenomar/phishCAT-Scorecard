@@ -1,71 +1,111 @@
-# Weekly Progress Summary
+# 📊 Weekly Progress Summary
 
-**Week:** ___ of ___ | **Dates:** _**/**_/___ to _**/**_/___
-
-## Weekly Metrics
-
-| Metric                 | Target | Actual | Status |
-| ---------------------- | ------ | ------ | ------ |
-| Training Hours         | 15-20  | _____  | ☐ ✓/✗  |
-| Challenges Solved      | 15-25  | _____  | ☐ ✓/✗  |
-| Live CTF Participated  | 1-2    | _____  | ☐ ✓/✗  |
-| CTF Challenges Solved  | 2-5    | _____  | ☐ ✓/✗  |
-| Writeups Created       | 3-5    | _____  | ☐ ✓/✗  |
-| New Techniques Learned | 2-3    | _____  | ☐ ✓/✗  |
-
-## Weekly Points Breakdown
-
-| Source               | Points    |
-| -------------------- | --------- |
-| Training Hours       | _____     |
-| Challenges Completed | _____     |
-| Quality Bonuses      | _____     |
-| Live CTF Performance | _____     |
-| Writeups & Learning  | _____     |
-| **Weekly Total**     | **_____** |
-
-## Category Distribution (Hours This Week)
-
-```
-Web Exploitation:     _____ hours [========] ____%
-Binary Exploitation:  _____ hours [========] ____%
-Cryptography:        _____ hours [========] ____%
-Reverse Engineering: _____ hours [========] ____%
-Forensics:           _____ hours [========] ____%
-OSINT:               _____ hours [========] ____%
-```
-
-## Skill Level Assessment (Self-Rated 1-10)
-
-| Specialty  | Last Week | This Week | Change |
-| ---------- | --------- | --------- | ------ |
-| Primary #1 | _____     | _____     | _____  |
-| Primary #2 | _____     | _____     | _____  |
-| Secondary  | _____     | _____     | _____  |
-
-## Weekly Achievements
-
-- [ ] Solved first challenge in new category
-- [ ] Completed difficult challenge independently
-- [ ] Helped teammate solve challenge
-- [ ] Found new technique/exploit
-- [ ] Improved solve time by 20%+
-- [ ] Other: _____________________
-
-## Weekly Challenges & Lessons
-
-**Biggest challenge this week:**
+**Week:** 4 of 4  
+**Dates:** 02/27/26 to 02/27/26
 
 ---
 
-**How you overcame it (or plan to):**
+# Week 4 Activity Breakdown
+
+## February 27
+
+**Challenges Completed**
+- Bandit Level 11  
+- Bandit Level 12  
+- Bandit Level 13  
+
+**Points Calculation**
+
+| Category | Points |
+|---|---|
+| Training (2+ hours) | 10 |
+| 3 Easy Challenges | 15 |
+| Writeup Created | 10 |
+| Learned New Technique | 10 |
+| Updated Cheat Sheet | 5 |
+| **Daily Total** | **50** |
 
 ---
 
-**Most valuable lesson learned:**
+# 📈 Week 4 Totals
+
+| Category | Total |
+|---|---|
+| Training Days | 1 |
+| Training Points | 10 |
+| Challenges Solved | 3 |
+| Challenge Points | 15 |
+| Quality Bonuses | 25 |
+
+### Weekly Points Calculation
+- **Training Points:** 10  
+- **Challenge Points:** 15  
+- **Quality Bonuses:** 25  
+
+### Weekly Total
+**50 Points**
 
 ---
 
-**Adjustment for next week:**
+# Weekly Metrics
+
+| Metric | Target | Actual | Status |
+|---|---|---|---|
+| Training Hours | 15–20 | 2 | ✗ |
+| Challenges Solved | 15–25 | 3 | ✗ |
+| Live CTF Participated | 1–2 | 0 | ✗ |
+| CTF Challenges Solved | 2–5 | 3 | ✓ |
+| Writeups Created | 3–5 | 1 | ✓ |
+| New Techniques Learned | 2–3 | 2 | ✓ |
 
 ---
+
+# Category Distribution (Hours This Week)
+
+- **Training Points:** 10  
+- **Challenge Points:** 15  
+- **Quality Bonuses:** 25  
+
+### Weekly Total
+**50 Points**
+
+
+---
+
+# Skill Level Assessment (Self-Rated 1-10)
+
+| Specialty | Last Week | This Week | Change |
+|---|---|---|---|
+| Linux Fundamentals | 4 | 5 | +1 |
+
+---
+
+# Weekly Achievements
+
+- [x] Completed Bandit Levels 11–13  
+- [x] Practiced **Linux terminal commands** and **file navigation**  
+- [x] Updated **cheat sheet with new command-line techniques**  
+- [ ] Improved solve time by 20%+  
+- [ ] Explored advanced CTF tools
+
+---
+
+# Weekly Challenges & Lessons
+
+### Biggest challenge this week
+Finding the correct commands and pipelines to extract content efficiently in Bandit Levels 11–13.
+
+---
+
+### How you overcame it
+By reviewing Linux command usage, chaining commands, and testing multiple approaches to navigate and read files.
+
+---
+
+### Most valuable lesson learned
+Mastering Linux command-line operations and pipelines is critical for solving terminal-based CTF challenges quickly and accurately.
+
+---
+
+### Adjustment for next week
+Continue Bandit challenges, focusing on Levels 14–16, and practice writing reusable terminal commands for faster solves.
