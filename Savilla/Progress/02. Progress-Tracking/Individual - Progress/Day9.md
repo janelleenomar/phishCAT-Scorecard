@@ -2,7 +2,7 @@
 
 ## Daily Training Log
 
-**Date:** <ins>Feb 17, 2026 </ins> | **Training Day:** <ins>9</ins>/180 (or <ins>9</ins>/90 for 3-month plan)
+**Date:** <ins>Feb 21, 2026 </ins> | **Training Day:** <ins>9</ins>/180 (or <ins>9</ins>/90 for 3-month plan)
 
 ### 1.<u> Time Investment</u>
 
