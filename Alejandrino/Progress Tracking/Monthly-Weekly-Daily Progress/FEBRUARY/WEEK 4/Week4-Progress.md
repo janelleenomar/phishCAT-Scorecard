@@ -5,28 +5,6 @@
 
 ---
 
-# Week 4 Activity Breakdown
-
-## February 27
-
-**Challenges Completed**
-- Bandit Level 11  
-- Bandit Level 12  
-- Bandit Level 13  
-
-**Points Calculation**
-
-| Category | Points |
-|---|---|
-| Training (2+ hours) | 10 |
-| 3 Easy Challenges | 15 |
-| Writeup Created | 10 |
-| Learned New Technique | 10 |
-| Updated Cheat Sheet | 5 |
-| **Daily Total** | **50** |
-
----
-
 # 📈 Week 4 Totals
 
 | Category | Total |
