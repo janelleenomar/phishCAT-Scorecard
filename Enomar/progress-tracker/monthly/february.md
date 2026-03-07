@@ -1,21 +1,21 @@
 # Monthly Progress Report
 
-**Month:** ___ of ___ | **Program:** ☐ 3-Month ☐ 6-Month ☐ Long-Term
+**Month:** February 2026 | **Program:** ☑ 3-Month ☐ 6-Month ☐ Long-Term
 
 ## Monthly Statistics
 
 | Metric               | Month Goal | Achieved | % of Goal |
 | -------------------- | ---------- | -------- | --------- |
-| Total Training Hours | 60-80      | _____    | _____%    |
-| Challenges Solved    | 60-100     | _____    | _____%    |
-| Easy Challenges      | 30-40      | _____    | _____%    |
-| Medium Challenges    | 20-30      | _____    | _____%    |
-| Hard Challenges      | 5-10       | _____    | _____%    |
-| Live CTFs Attended   | 4-6        | _____    | _____%    |
-| Live CTF Solves      | 10-20      | _____    | _____%    |
-| Writeups Created     | 15-20      | _____    | _____%    |
+| Total Training Hours | 60-80      | 19       | 24%       |
+| Challenges Solved    | 60-100     | 21       | 21%       |
+| Easy Challenges      | 30-40      | 12       | 30%       |
+| Medium Challenges    | 20-30      | 9        | 30%       |
+| Hard Challenges      | 5-10       | 0        | 0%        |
+| Live CTFs Attended   | 4-6        | 1        | 17%       |
+| Live CTF Solves      | 10-20      | 3        | 15%       |
+| Writeups Created     | 15-20      | 21       | 105%      |
 
-## Monthly Points Total: _____
+## Monthly Points Total: 620
 
 **Point Milestones:**
 
@@ -24,7 +24,7 @@
 - 🥇 Gold (3000-3999 pts): Advanced Competitor
 - 💎 Platinum (4000+ pts): Elite Performer
 
-**Your Tier This Month:** _____________
+**Your Tier This Month:** Initiate / Foundation Builder (Approaching Bronze)
 
 ## Skill Progression Matrix
 
@@ -32,22 +32,22 @@ Rate yourself (1-5 scale: 1=Novice, 3=Intermediate, 5=Expert)
 
 |Specialty|Start of Month|End of Month|Growth|
 |---|---|---|---|
-|**Primary Specialty #1**||||
-|- Basic techniques|___|___|___|
-|- Intermediate skills|___|___|___|
-|- Advanced techniques|___|___|___|
-|- Speed/efficiency|___|___|___|
-|**Primary Specialty #2**||||
-|- Basic techniques|___|___|___|
-|- Intermediate skills|___|___|___|
-|- Advanced techniques|___|___|___|
-|- Speed/efficiency|___|___|___|
+|**Primary Specialty #1 (Forensics)**|0|5|+5|
+|- Basic techniques|1|4|+3|
+|- Intermediate skills|0|2|+2|
+|- Advanced techniques|0|1|+1|
+|- Speed/efficiency|1|3|+2|
+|**Primary Specialty #2 (Web Exploit)**|0|2|+2|
+|- Basic techniques|0|2|+2|
+|- Intermediate skills|0|1|+1|
+|- Advanced techniques|0|0|0|
+|- Speed/efficiency|0|1|+1|
 
 ## Competition Performance (if applicable)
 
 |CTF Name|Date|Rank|Solves|Time|Notes|
 |---|---|---|---|---|---|
-|||||||
+|Love at First Breach (THM)|Feb 14, 2026|N/A|3|~5 hrs|First live CTF! Successfully set up OpenVPN/Kali & exploited LFI.|
 |||||||
 |||||||
 
@@ -57,13 +57,13 @@ Based on your training program, check completed milestones:
 
 **3-Month Program:**
 
-- Month 1: [ ] 60+ challenges, [ ] 4 CTFs, [ ] Chosen specialties
+- Month 1: [ ] 60+ challenges, [ ] 4 CTFs, [x] Chosen specialties
 - Month 2: [ ] 40+ medium challenges, [ ] 8 CTFs total
 - Month 3: [ ] 4-5 solves per CTF, [ ] Competition ready
 
 **6-Month Program:**
 
-- Month 1: [ ] 80+ challenges, [ ] Basic tool proficiency
+- Month 1: [ ] 80+ challenges, [x] Basic tool proficiency
 - Month 2: [ ] 180+ total challenges, [ ] Specialties chosen, [ ] 20+ writeups
 - Month 3: [ ] 80+ specialty challenges, [ ] 3-5 CTF solves
 - Month 4: [ ] 60+ medium-hard, [ ] 5-7 CTF solves, [ ] 60+ writeups
@@ -74,29 +74,18 @@ Based on your training program, check completed milestones:
 
 **Skill Goals:**
 
-1. ---
-    
-2. ---
-    
-3. ---
-    
+1. Explore the OSINT (Open-Source Intelligence) category, focusing on passive reconnaissance, geolocation, and data gathering techniques.
+2. Maintain forensic momentum by mastering packet analysis and Wireshark, OR pivot entirely to OSINT investigations depending on post-prelim interest.
+3. Bridge the gap in Static Analysis by becoming comfortable with HxD and raw byte manipulation, if continuing the Forensics track.
 
 **Performance Goals:**
 
-1. ---
-    
-2. ---
-    
-3. ---
-    
+1. Re-establish a consistent training routine after preliminary exams are finished.
+2. Achieve the Bronze Tier (1000+ points) by increasing weekly challenge volume in either Forensics or OSINT.
+3. Participate in at least two live CTF events to test skills under pressure.
 
 **Learning Goals:**
 
-1. ---
-    
-2. ---
-    
-3. ---
-    
-
----
+1. Successfully balance university coursework (Net 2, SQL, GE Ethics) with CTF training without burning out.
+2. Learn the core toolset for OSINT (e.g., advanced search operators, Sherlock, EXIF data tracking) to establish a strong baseline in the new category.
+3. Continue refining the local Kali Linux attack environment to ensure a seamless workflow, regardless of the chosen category.
