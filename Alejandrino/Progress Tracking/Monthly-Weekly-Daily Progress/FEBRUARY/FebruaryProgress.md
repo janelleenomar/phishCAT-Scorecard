@@ -8,14 +8,14 @@
 | -------------------- | ---------- | -------- | --------- |
 | Total Training Hours | 60-80      | 24.5     | 31-41%    |
 | Challenges Solved    | 60-100     | 27       | 27-45%    |
-| Easy Challenges      | 30-40      | _____    | _____%    |
-| Medium Challenges    | 20-30      | _____    | _____%    |
+| Easy Challenges      | 30-40      | 24       | _____%    |
+| Medium Challenges    | 20-30      | 3        | _____%    |
 | Hard Challenges      | 5-10       | _____    | _____%    |
 | Live CTFs Attended   | 4-6        | 1        | 17-25%    |
 | Live CTF Solves      | 10-20      | 10       | 50-100%   |
-| Writeups Created     | 15-20      | 8        | 40-53%    |
+| Writeups Created     | 15-20      | 16        | 40-53%    |
 
-## Monthly Points Total: **385**
+## Monthly Points Total: **740**
 
 **Point Milestones:**
 
