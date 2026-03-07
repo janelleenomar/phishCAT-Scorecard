@@ -1,0 +1,80 @@
+# 📊 Individual Progress Scorecard
+
+## Daily Training Log
+
+**Date:** February 19, 2026 | **Training Day:** 19/90 (3-month plan)
+
+---
+
+## 1. Time Investment
+
+* [x] Training time today: **3 hours**
+* [x] Goal met? **Yes**
+* [x] Consistency streak: **1 day**
+
+**Points:**
+
+* 2+ hours = **10 points** (Achieved)
+* 1–2 hours = 5 points
+* <1 hour = 2 points
+* Missed day = 0 points (streak resets)
+
+---
+
+## 2. Challenge Completion
+
+| Difficulty      | Challenges Solved | Points Earned |
+| --------------- | ----------------- | ------------- |
+| Easy            | 2 × 5 pts         | 10            |
+| Medium          | 0 × 15 pts        | 0             |
+| Hard            | 0 × 30 pts        | 0             |
+| Expert          | 0 × 50 pts        | 0             |
+| **Daily Total** |                   | **10**        |
+
+*Challenges included: Love Letter Locker, When Hearts Collide (TryHackMe – Love at First Breach).*
+
+---
+
+## 3. Quality Indicators
+
+* [x] Created writeup for at least 1 challenge (+10 pts)
+* [ ] Reviewed 3+ writeups from others (+5 pts)
+* [x] Learned new technique/tool (+10 pts)
+* [ ] Updated cheat sheet (+5 pts)
+* [ ] Practiced timed challenge (+5 pts)
+
+**Quality Points Total:** **20**
+
+---
+
+## 4. Category Focus Today
+
+Which categories did you practice?
+
+* [x] Web Exploitation
+* [ ] Binary Exploitation / Pwn
+* [x] Cryptography
+* [ ] Reverse Engineering
+* [ ] Forensics
+* [ ] OSINT
+* [x] Other: **CTF Practice**
+
+**Primary Specialty (Web Exploitation):** 120 minutes
+
+**Secondary Specialty (Cryptography – Hashing / MD5):** 60 minutes
+
+---
+
+## 5. Reflection (Qualitative)
+
+**What went well today?**
+Successfully completed two additional challenges from the **Love at First Breach** event, including one involving **hash matching using MD5** and another focused on accessing restricted user content.
+
+**What challenged you?**
+Understanding how **hash-based verification works** in the MD5 challenge required experimenting with different inputs and observing how hashes match.
+
+**Key learning:**
+Hash functions like **MD5** are commonly used in CTF challenges and authentication systems. Knowing how to recognize and work with hashes is an important skill in cryptography and web exploitation.
+
+**Tomorrow's focus:**
+Finish remaining challenges from the **Love at First Breach** event and organize all write-ups for documentation.
