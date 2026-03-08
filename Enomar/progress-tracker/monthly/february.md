@@ -6,16 +6,16 @@
 
 | Metric               | Month Goal | Achieved | % of Goal |
 | -------------------- | ---------- | -------- | --------- |
-| Total Training Hours | 60-80      | 19       | 24%       |
-| Challenges Solved    | 60-100     | 21       | 21%       |
-| Easy Challenges      | 30-40      | 12       | 30%       |
-| Medium Challenges    | 20-30      | 9        | 30%       |
+| Total Training Hours | 60-80      | 34       | 43%       |
+| Challenges Solved    | 60-100     | 29       | 29%       |
+| Easy Challenges      | 30-40      | 17       | 43%       |
+| Medium Challenges    | 20-30      | 12       | 40%       |
 | Hard Challenges      | 5-10       | 0        | 0%        |
-| Live CTFs Attended   | 4-6        | 1        | 17%       |
-| Live CTF Solves      | 10-20      | 3        | 15%       |
-| Writeups Created     | 15-20      | 21       | 105%      |
+| Live CTFs Attended   | 4-6        | 2        | 33%       |
+| Live CTF Solves      | 10-20      | 10       | 50%       |
+| Writeups Created     | 15-20      | 28       | 140%      |
 
-## Monthly Points Total: 620
+## Monthly Points Total: 815
 
 **Point Milestones:**
 
@@ -47,7 +47,7 @@ Rate yourself (1-5 scale: 1=Novice, 3=Intermediate, 5=Expert)
 
 |CTF Name|Date|Rank|Solves|Time|Notes|
 |---|---|---|---|---|---|
-|Love at First Breach (THM)|Feb 14, 2026|N/A|3|~5 hrs|First live CTF! Successfully set up OpenVPN/Kali & exploited LFI.|
+|Love at First Breach (THM)|Feb 2026|N/A|10|Multiple|First live CTF! Successfully set up OpenVPN/Kali, exploited LFI, React2Shell, IDOR, & XSS.|
 |||||||
 |||||||
 
@@ -64,7 +64,7 @@ Based on your training program, check completed milestones:
 **6-Month Program:**
 
 - Month 1: [ ] 80+ challenges, [x] Basic tool proficiency
-- Month 2: [ ] 180+ total challenges, [ ] Specialties chosen, [ ] 20+ writeups
+- Month 2: [ ] 180+ total challenges, [ ] Specialties chosen, [x] 20+ writeups
 - Month 3: [ ] 80+ specialty challenges, [ ] 3-5 CTF solves
 - Month 4: [ ] 60+ medium-hard, [ ] 5-7 CTF solves, [ ] 60+ writeups
 - Month 5: [ ] 7-10 CTF solves, [ ] Team optimized, [ ] 80+ writeups
@@ -89,3 +89,4 @@ Based on your training program, check completed milestones:
 1. Successfully balance university coursework (Net 2, SQL, GE Ethics) with CTF training without burning out.
 2. Learn the core toolset for OSINT (e.g., advanced search operators, Sherlock, EXIF data tracking) to establish a strong baseline in the new category.
 3. Continue refining the local Kali Linux attack environment to ensure a seamless workflow, regardless of the chosen category.
+
