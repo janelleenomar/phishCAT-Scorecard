@@ -11,11 +11,25 @@
 | Easy Challenges      | 30-40      | 17       | 43%       |
 | Medium Challenges    | 20-30      | 12       | 40%       |
 | Hard Challenges      | 5-10       | 0        | 0%        |
-| Live CTFs Attended   | 4-6        | 2        | 33%       |
+| Live CTFs Attended   | 4-6        | 1        | 17%       |
 | Live CTF Solves      | 10-20      | 10       | 50%       |
 | Writeups Created     | 15-20      | 28       | 140%      |
 
-## Monthly Points Total: 815
+## Monthly Points Total: 1275
+*(Includes +460 retroactive points for Team Sessions, Teammate Assistance, and Dual Live CTF Bonuses)*
+
+### Appendix: Retroactive CTF & Team Bonus Calculations (Feb 14-17)
+
+Because the standard weekly templates did not include the specific scoring for live events and collaborative teamwork, the following points were retroactively added to the February Monthly Total for the "Love at First Breach" TryHackMe CTF.
+
+| Bonus Category | Calculation (Multiplier) | Points Earned | Notes |
+| :--- | :--- | :--- | :--- |
+| **Team Sessions** | 4 days × 25 pts | 100 | Active collaboration during the 4-day event (Feb 14-17). |
+| **Help Teammate** | 4 days × 15 pts | 60 | Assisted teammates with payloads, environments, and troubleshooting. |
+| **Live CTF Participation (Individual)** | 1 Event × 50 pts | 50 | Base completion bonus for individual participation in a live timed CTF. |
+| **Live CTF Participation (Team)** | 1 Event × 50 pts | 50 | Separate bonus multiplier applied for entering and competing as a formal team. |
+| **Live CTF Solves** | 10 Solves × 20 pts | 200 | Bonus points for capturing flags in a live, competitive environment. |
+| **Total Retroactive Bonus** | | **+460 pts** | *Added to the base 815 points, bringing the final Monthly Total to 1275.* |
 
 **Point Milestones:**
 
@@ -24,7 +38,7 @@
 - 🥇 Gold (3000-3999 pts): Advanced Competitor
 - 💎 Platinum (4000+ pts): Elite Performer
 
-**Your Tier This Month:** Initiate / Foundation Builder (Approaching Bronze)
+**Your Tier This Month:** 🥉 Bronze (Consistent Learner)
 
 ## Skill Progression Matrix
 
@@ -89,4 +103,5 @@ Based on your training program, check completed milestones:
 1. Successfully balance university coursework (Net 2, SQL, GE Ethics) with CTF training without burning out.
 2. Learn the core toolset for OSINT (e.g., advanced search operators, Sherlock, EXIF data tracking) to establish a strong baseline in the new category.
 3. Continue refining the local Kali Linux attack environment to ensure a seamless workflow, regardless of the chosen category.
+
 
