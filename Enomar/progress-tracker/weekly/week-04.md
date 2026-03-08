@@ -1,6 +1,6 @@
 # Weekly Progress Summary
 
-**Week:** 4 of 13 | **Dates:** February 23, 2026 to March 1, 2026
+**Week:** 4 of 13 | **Dates:** February 22, 2026 to March 1, 2026
 
 ## Weekly Metrics
 
