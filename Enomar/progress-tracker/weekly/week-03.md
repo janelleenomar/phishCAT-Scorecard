@@ -1,36 +1,36 @@
 # Weekly Progress Summary
 
-**Week:** 3 of 13 | **Dates:** February 16, 2026 to February 22, 2026
+**Week:** 3 of 13 | **Dates:** February 15, 2026 to February 21, 2026
 
 ## Weekly Metrics
 
 | Metric                 | Target | Actual | Status |
 | ---------------------- | ------ | ------ | ------ |
-| Training Hours         | 15-20  | 2.0    | ☐ ✗    |
-| Challenges Solved      | 15-25  | 0      | ☐ ✗    |
-| Live CTF Participated  | 1-2    | 0      | ☐ ✗    |
-| CTF Challenges Solved  | 2-5    | 0      | ☐ ✗    |
-| Writeups Created       | 3-5    | 0      | ☐ ✗    |
-| New Techniques Learned | 2-3    | 1      | ☐ ✗    |
+| Training Hours         | 15-20  | 17.0   | ☐ ✓    |
+| Challenges Solved      | 15-25  | 7      | ☐ ✗    |
+| Live CTF Participated  | 1-2    | 1      | ☐ ✓    |
+| CTF Challenges Solved  | 2-5    | 7      | ☐ ✓    |
+| Writeups Created       | 3-5    | 7      | ☐ ✓    |
+| New Techniques Learned | 2-3    | 4      | ☐ ✓    |
 
 ## Weekly Points Breakdown
 
-| Source               | Points |
-| -------------------- | ------ |
-| Training Hours       | 5      |
-| Challenges Completed | 0      |
-| Quality Bonuses      | 25     |
-| Live CTF Performance | 0      |
-| Writeups & Learning  | 0      |
-| **Weekly Total** | **30** |
+| Source               | Points  |
+| -------------------- | ------- |
+| Training Hours       | 35      |
+| Challenges Completed | 55      |
+| Quality Bonuses      | 40      |
+| Live CTF Performance | 0       |
+| Writeups & Learning  | 110     |
+| **Weekly Total** | **240** |
 
 ## Category Distribution (Hours This Week)
 
-    Web Exploitation:     0.0 hours [        ] 0%
+    Web Exploitation:    12.5 hours [======= ] 74%
     Binary Exploitation:  0.0 hours [        ] 0%
-    Cryptography:         0.0 hours [        ] 0%
+    Cryptography:         2.5 hours [=       ] 15%
     Reverse Engineering:  0.0 hours [        ] 0%
-    Forensics:            2.0 hours [========] 100%
+    Forensics:            2.0 hours [=       ] 11%
     OSINT:                0.0 hours [        ] 0%
 
 ## Skill Level Assessment (Self-Rated 1-10)
@@ -38,8 +38,8 @@
 | Specialty                 | Last Week | This Week | Change |
 | ------------------------- | --------- | --------- | ------ |
 | Primary #1 (Forensics)    | 4         | 4         | 0      |
-| Primary #2 (Web Exploit)  | 2         | 2         | 0      |
-| Secondary                 | 0         | 0         | 0      |
+| Primary #2 (Web Exploit)  | 2         | 4         | +2     |
+| Secondary (Cryptography)  | 0         | 1         | +1     |
 
 ## Weekly Achievements
 
