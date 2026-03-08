@@ -10,19 +10,19 @@
 | Challenges Solved      | 15-25  | 8      | ☐ ✗    |
 | Live CTF Participated  | 1-2    | 0      | ☐ ✗    |
 | CTF Challenges Solved  | 2-5    | 6      | ☐ ✓    |
-| Writeups Created       | 3-5    | 2      | ☐ ✗    |
+| Writeups Created       | 3-5    | 7      | ☐ ✓    |
 | New Techniques Learned | 2-3    | 2      | ☐ ✓    |
 
 ## Weekly Points Breakdown
 
-| Source               | Points    |
-| -------------------- | --------- |
-| Training Hours       | 10        |
-| Challenges Completed | 70        |
-| Quality Bonuses      | 10        |
-| Live CTF Performance | 0         |
-| Writeups & Learning  | 40        |
-| **Weekly Total** | **130** |
+| Source               | Points  |
+| -------------------- | ------- |
+| Training Hours       | 10      |
+| Challenges Completed | 70      |
+| Quality Bonuses      | 10      |
+| Live CTF Performance | 0       |
+| Writeups & Learning  | 90      |
+| **Weekly Total** | **180** |
 
 ## Category Distribution (Hours This Week)
 
@@ -33,7 +33,6 @@ Cryptography:         0 hours [        ] 0%
 Reverse Engineering:  0 hours [        ] 0%
 Forensics:            3 hours [========] 100%
 OSINT:                0 hours [        ] 0%
-```
 
 ## Skill Level Assessment (Self-Rated 1-10)
 
@@ -65,3 +64,4 @@ I learned the core digital forensics lifecycle (Preservation, Analysis, and Repo
 
 **Adjustment for next week:**
 I need to bridge the gap in my Static Analysis skills by mastering HxD. I will focus on learning File Signatures (Magic Bytes) to fix corrupt headers, and I plan to start my first Network Forensics module with Wireshark.
+
