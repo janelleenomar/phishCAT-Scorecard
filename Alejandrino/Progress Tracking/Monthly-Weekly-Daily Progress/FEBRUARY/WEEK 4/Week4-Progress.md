@@ -14,14 +14,16 @@
 | Challenges Solved | 3 |
 | Challenge Points | 15 |
 | Quality Bonuses | 25 |
+| Write-ups created | 3 |
 
 ### Weekly Points Calculation
 - **Training Points:** 10  
 - **Challenge Points:** 15  
-- **Quality Bonuses:** 25  
+- **Quality Bonuses:** 25
+- **Write-ups points:** 30
 
 ### Weekly Total
-**50 Points**
+**80 Points**
 
 ---
 
