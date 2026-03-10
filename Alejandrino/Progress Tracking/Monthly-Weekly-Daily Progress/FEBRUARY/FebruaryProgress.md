@@ -13,9 +13,13 @@
 | Hard Challenges      | 5-10       | _____    | _____%    |
 | Live CTFs Attended   | 4-6        | 1        | 17-25%    |
 | Live CTF Solves      | 10-20      | 10       | 50-100%   |
-| Writeups Created     | 15-20      | 16        | 40-53%    |
+| Writeups Created     | 15-20      | 27        | 40-53%    |
 
-## Monthly Points Total: **740**
+- **WEEK 1:** 195
+- **WEEK 2:** 115
+- **WEEK 3:** 775
+- **WEEK 4:** 80
+## Monthly Points Total: **1,165**
 
 **Point Milestones:**
 
@@ -24,7 +28,7 @@
 - 🥇 Gold (3000-3999 pts): Advanced Competitor
 - 💎 Platinum (4000+ pts): Elite Performer
 
-**Your Tier This Month:** **Below Bronze (Foundation Stage)**
+**Your Tier This Month:** **Bronze (Consistent Learner)**
 
 ## Skill Progression Matrix
 
