@@ -18,12 +18,12 @@
 
 - Live CTF participation: **50 pts**
 - Each CTF solve:
-      Easy: **7 x 20**
-      Medium: **3 x 30**
-- Team session: **25 pts**
-- Help teammate: **15 pts**
+      Easy: **7 x 20 = 140**
+      Medium: **3 x 30 = 90**
+- Team session: **25 x 4 = 125 pts**
+- Help teammate: **15 x 4 = 60 pts**
   
-**Weekly Bonus Points Total: 320**
+**Weekly Bonus Points Total: 465**
   
 ## Weekly Points Breakdown
 
@@ -32,8 +32,7 @@
 | Training Hours       | 40      |
 | Challenges Completed | 70      |
 | Quality Bonuses      | 100      |
-| Live CTF Performance | 320     |
-| Writeups & Learning  | 0       |
+| Live CTF Performance | 465     |
 | **Weekly Total**     | **530** |
 
 ---
