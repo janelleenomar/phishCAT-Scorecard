@@ -8,7 +8,7 @@
 | ---------------------- | ------ | ------ | ------ |
 | Training Hours         | 15-20  | 13.5   | ✗      |
 | Challenges Solved      | 15-25  | 10     | ✗      |
-| Live CTF Participated  | 1-2    | 0      | ✗      |
+| Live CTF Participated  | 1-2    | 1      | ✓      |
 | CTF Challenges Solved  | 2-5    | 10     | ✓      |
 | Writeups Created       | 2-5    | 2      | ✓      |
 | New Techniques Learned | 2-3    | 4      | ✓      |
