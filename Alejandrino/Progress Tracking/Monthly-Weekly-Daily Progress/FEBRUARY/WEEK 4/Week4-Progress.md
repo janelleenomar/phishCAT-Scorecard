@@ -32,6 +32,19 @@
 
 ---
 
+## Category Distribution (Hours This Week)
+
+```
+Web Exploitation:     0 hours [        ] 0%
+Binary Exploitation:  0 hours  [        ] 0%
+Cryptography:         0 hours [      ] 0%
+Reverse Engineering:  0 hours  [        ] 0%
+Forensics:            0 hours  [        ] 0%
+OSINT:                0 hours  [        ] 0%
+Linux terminal:       2 hours  [======] 100%
+```
+
+---
 # Skill Level Assessment (Self-Rated 1-10)
 
 | Specialty | Last Week | This Week | Change |
