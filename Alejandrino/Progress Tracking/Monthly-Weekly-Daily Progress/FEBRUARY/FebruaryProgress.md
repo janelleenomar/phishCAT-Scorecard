@@ -81,7 +81,7 @@ Based on your training program, check completed milestones:
 
 1. Reach **60+ challenges solved in a month**
 2. Participate in **2 live CTFs**
-3. Maintain **15+ hours training per week**
+3. Maintain **10+ hours training per week**
 
 **Learning Goals**
 
