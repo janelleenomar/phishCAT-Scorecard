@@ -7,48 +7,28 @@
 
 # 📈 Week 4 Totals
 
-| Category | Total |
-|---|---|
-| Training Days | 1 |
-| Training Points | 10 |
-| Challenges Solved | 3 |
-| Challenge Points | 15 |
-| Quality Bonuses | 25 |
-| Write-ups created | 3 |
-
-### Weekly Points Calculation
-- **Training Points:** 10  
-- **Challenge Points:** 15  
-- **Quality Bonuses:** 25
-- **Write-ups points:** 30
-
-### Weekly Total
-**80 Points**
-
----
-
 # Weekly Metrics
 
 | Metric | Target | Actual | Status |
 |---|---|---|---|
-| Training Hours | 15–20 | 2 | ✗ |
-| Challenges Solved | 15–25 | 3 | ✗ |
+| Training Hours | 2-5 | 2 | ✓ |
+| Challenges Solved | 5 | 3 | ✗ |
 | Live CTF Participated | 1–2 | 0 | ✗ |
-| CTF Challenges Solved | 2–5 | 0 | ✓ |
+| CTF Challenges Solved | 2–5 | 0 | ✗ |
 | Writeups Created | 3–5 | 3 | ✓ |
 | New Techniques Learned | 2–3 | 2 | ✓ |
 
 ---
 
-# Category Distribution (Hours This Week)
-
-- **Training Points:** 10  
-- **Challenge Points:** 15  
-- **Quality Bonuses:** 25  
-
-### Weekly Total
-**50 Points**
-
+## Weekly Points Breakdown
+  
+| Source               | Points  |
+| -------------------- | ------- |
+| Training Hours       | 10      |
+| Challenges Completed | 15      |
+| Quality Bonuses      | 25      |
+| Write-ups            | 30     |
+| **Weekly Total**     | **80** |
 
 ---
 
