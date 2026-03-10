@@ -12,7 +12,7 @@
 | Challenges Solved      | 15-25  | 5      | ✗ |
 | Live CTF Participated  | 1-2    | 0      | ✗ |
 | CTF Challenges Solved  | 2-5    | 5      | ✓ |
-| Writeups Created       | 3-5    | 1      | ✗ |
+| Writeups Created       | 3-5    | 5      | ✗ |
 | New Techniques Learned | 2-3    | 1      | ✗ |
 
 ---
