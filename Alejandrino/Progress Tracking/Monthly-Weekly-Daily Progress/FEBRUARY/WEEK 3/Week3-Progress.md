@@ -33,7 +33,7 @@
 | Challenges Completed | 70      |
 | Quality Bonuses      | 100      |
 | Live CTF Performance | 465     |
-| **Weekly Total**     | **530** |
+| **Weekly Total**     | **675** |
 
 ---
 
