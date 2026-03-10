@@ -10,7 +10,7 @@
 | Challenges Solved      | 15-25  | 10     | ✗      |
 | Live CTF Participated  | 1-2    | 1      | ✓      |
 | CTF Challenges Solved  | 2-5    | 10     | ✓      |
-| Writeups Created       | 2-5    | 2      | ✓      |
+| Writeups Created       | 2-5    | 10      | ✓      |
 | New Techniques Learned | 2-3    | 4      | ✓      |
 
 ---
@@ -26,14 +26,16 @@
 **Weekly Bonus Points Total: 465**
   
 ## Weekly Points Breakdown
-
+- Team write-ups: **10 x 10 = 100 pts**
+  
 | Source               | Points  |
 | -------------------- | ------- |
 | Training Hours       | 40      |
 | Challenges Completed | 70      |
 | Quality Bonuses      | 100      |
 | Live CTF Performance | 465     |
-| **Weekly Total**     | **675** |
+| Write-ups            | 100     |
+| **Weekly Total**     | **775** |
 
 ---
 
