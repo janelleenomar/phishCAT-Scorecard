@@ -25,8 +25,8 @@
 | Challenges Completed | 25        |
 | Quality Bonuses      | 30        |
 | Live CTF Performance | 0         |
-| Writeups & Learning  | 0       |
-| **Weekly Total**     | **55**    |
+| Writeups & Learning  | 50        |
+| **Weekly Total**     | **115**   |
 
 ---
 
