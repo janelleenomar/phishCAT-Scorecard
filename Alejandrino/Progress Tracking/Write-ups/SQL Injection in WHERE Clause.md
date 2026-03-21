@@ -1,0 +1,51 @@
+# Lab Write-Up: SQL Injection in WHERE Clause
+
+## Challenge Metadata
+| Attribute | Details |
+| :--- | :--- |
+| **Event** | PortSwigger Academy |
+| **Category** | Web Security |
+| **Difficulty** | Easy |
+
+---
+
+### 1. Objective
+The goal was to exploit a SQL injection vulnerability in a product category filter to retrieve hidden data. Specifically, the objective was to bypass the `released = 1` condition and view all products in the database, including unreleased ones.
+
+### 2. Analysis
+The application filters products based on a `category` parameter in the URL. By observing the application's behavior, we can reconstruct the vulnerable back-end query:
+
+`SELECT * FROM products WHERE category = '[USER_INPUT]' AND released = 1`
+
+* **Vulnerability:** The application takes the value of the `category` parameter directly from the URL and inserts it into the SQL query without sanitization.
+* **Entry Point:** The single quote character (`'`) is used to break out of the string literal and inject malicious SQL commands.
+
+---
+
+### 3. Exploitation
+**Payload Used:** `' OR 1=1--`
+
+#### How the Payload Works:
+When the payload is injected into the URL (`/filter?category=%27+or+1=1--`), the final query executed by the database becomes:
+
+`SELECT * FROM products WHERE category = '' OR 1=1--' AND released = 1`
+
+1.  **`'` (Single Quote):** Closes the developer's intended string (leaving the category as an empty string).
+2.  **`OR 1=1`:** Adds a logic gate that is **always true**. Since `1=1` is true, the `WHERE` clause returns every row in the `products` table.
+3.  **`--` (The Eraser):** This is the SQL comment symbol. It tells the database to ignore the rest of the line, effectively deleting the `AND released = 1` restriction.
+
+---
+
+### 4. Impact
+By successfully injecting this logic, I was able to:
+* **Retrieve Hidden Data:** View products marked with `released = 0`.
+* **Information Disclosure:** Access the full catalog of items regardless of their intended visibility.
+* **Logical Bypass:** Entirely circumvent the application's business logic for product filtering.
+
+### 5. Remediation
+To prevent this, the developer should use **Parameterized Queries** (Prepared Statements). 
+
+**Example (Secure Code):**
+```sql
+-- The database treats input as data only, never as code.
+SELECT * FROM products WHERE category = ? AND released = 1
