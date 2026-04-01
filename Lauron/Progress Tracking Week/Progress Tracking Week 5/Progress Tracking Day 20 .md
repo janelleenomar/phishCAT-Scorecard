@@ -49,7 +49,7 @@ Which categories did you practice?
 - [ ] OSINT
 - [ ] Other: ___________
 
-**Primary Specialty:** 90 minutes
+**Primary Specialty:** 120 minutes
 
 **Secondary Specialty:** _____ minutes
 
