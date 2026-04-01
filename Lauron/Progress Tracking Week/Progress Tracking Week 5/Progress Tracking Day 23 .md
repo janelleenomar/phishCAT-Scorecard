@@ -9,7 +9,7 @@
 
 - [x] Training time today: 2hrs
 - [x] Goal met? (Yes/No)
-- [x] Consistency streak: 5 days
+- [x] Consistency streak: 6 days
 
 **Points:**
 
