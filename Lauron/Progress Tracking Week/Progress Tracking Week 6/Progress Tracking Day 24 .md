@@ -63,8 +63,11 @@ My progress because i was able to continue solve another medium problems
 
 **What challenged you?**
 Decrypting and identifying what cipher to sue inorder to solve the problem
+
 **Key learning:**
 Use your brain, analyze the question and think carefully
+
 **Tomorrow's focus:**
 continue solving medium problems in picoCTF 
+
 ---
