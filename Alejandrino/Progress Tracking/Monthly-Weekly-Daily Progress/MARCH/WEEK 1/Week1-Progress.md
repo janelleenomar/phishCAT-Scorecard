@@ -27,7 +27,7 @@
 | Quality Bonuses      | 25      |
 | Live CTF Performance | 0       |
 | Writeups & Learning  | 70      |
-| **Weekly Total** | **220** |
+| **Weekly Total** | **213.5** |
 
 ---
 
