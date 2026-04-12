@@ -22,12 +22,12 @@
 
 | Source                | Points  |
 | -------------------- | ------- |
-| Training Hours       | 40      |
+| Training Hours       | 9.5      |
 | Challenges Completed | 55      |
 | Quality Bonuses      | 80      |
 | Live CTF Performance | 0       |
-| Writeups & Learning  | 80      |
-| **Weekly Total** | **255** |
+| Writeups & Learning  | 60      |
+| **Weekly Total** | **235** |
 
 ---
 
