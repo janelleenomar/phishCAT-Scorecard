@@ -1,4 +1,3 @@
-```markdown
 # 📝 Challenge Write-up: Gandalf Lakera (Level 1)
 
 | Attribute | Details |
