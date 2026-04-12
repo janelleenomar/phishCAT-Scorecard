@@ -26,12 +26,12 @@ Here is your **Weekly Progress Summary** for Week 4.
 
 | Source                 | Points  |
 | ---------------------- | ------- |
-| Training Hours         | 40      |
+| Training Hours         | 8      |
 | Challenges Completed   | 25      |
-| Quality Bonuses        | 80      |
+| Quality Bonuses        | 85      |
 | Live CTF Performance   | 0       |
 | **Writeups & Learning**| 50 |
-| **Weekly Total** | **195** |
+| **Weekly Total** | **208** |
 
 ---
 
