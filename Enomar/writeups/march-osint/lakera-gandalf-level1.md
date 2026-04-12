@@ -30,4 +30,3 @@ By utilizing a simple, direct prompt, the AI's baseline vulnerability was expose
 
 ## 4. Conclusion
 This task was a perfect introduction to the concept of AI Red Teaming and Prompt Injection. It demonstrated the fundamental flaw of basic Large Language Models: by default, they are designed to be helpful and compliant. If developers do not explicitly write strong system prompts instructing the AI to hide sensitive data, the AI will happily hand over its secrets to anyone who simply asks for them.
-```
