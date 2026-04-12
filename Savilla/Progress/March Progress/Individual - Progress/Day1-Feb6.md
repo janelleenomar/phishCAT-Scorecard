@@ -2,7 +2,7 @@
 
 ## Daily Training Log
 
-**Date:** <ins>Feb 6, 2026 </ins> | **Training Day:** <ins>1</ins>/180 (or <ins>1</ins>/90 for 3-month plan)
+**Date:** <ins>Mar 6, 2026 </ins> | **Training Day:** <ins>13</ins>/180 (or <ins>13</ins>/90 for 3-month plan)
 
 ### 1.<u> Time Investment</u>
 
@@ -41,8 +41,8 @@
 
 Which categories did you practice?
 
-- [x] Web Exploitation
-- [ ] Binary Exploitation / Pwn
+- [ ] Web Exploitation
+- [x] Binary Exploitation / Pwn
 - [ ] Cryptography
 - [ ] Reverse Engineering
 - [ ] Forensics
@@ -58,18 +58,13 @@ Which categories did you practice?
 ### 5. Reflection (Qualitative)
 
 **What went well today?**
-
-<ins>This was my first time learning web exploits. I learned fundamentals concepts related to this field, just as how vulnerable websites are exploited using injection and php code. I also learned HTML and CSS are susceptible to inspection allowing bypassers to look up to your source code and view hidden details or even files. Additionally, XSS and SQLi are new terms I leanred related in attacking. After that, I was able to find my first flag froma challenge in the web exploit category in picoCTF. </ins>
-
+<ins>This was my first time learning binary exploitation. I learned how C programs can be taken advantage of through something called a format string vulnerability. I also learned that when a program uses printf() the wrong way, it can accidentally expose sensitive data hidden in the computer's memory. I was able to find my first flag from the Stonks challenge in picoCTF using this technique.</ins>
 
 **What challenged you?**
-
-<ins>At first I was just blankly staring at the website, didn't know what to do. However, I read different writeups about it and I was able to crack the challenge and find the flag. (It was a challenged about modifying or altering headers in requests protocols of a website)</ins>
+<ins>At first I had no idea what a format string vulnerability was or how to use it. I read some writeups about it and slowly understood how to leak data from the stack memory. After some trial and error I was able to piece together the flag from the output.</ins>
 
 **Key learning:**
-
-<ins>Source Code Inspection, Checking dev tools, Translating hidden ecrypted texts using rot13 or base64</ins>
+<ins>Format string vulnerabilities, how to leak stack memory using printf, and how to decode the leaked data using CyberChef to get the flag.</ins>
 
 **Tomorrow's focus:**
-
-<ins>More CTF challenges and new techniques.</ins>
+<ins>More binary exploitation challenges and learning about buffer overflows.</ins>
