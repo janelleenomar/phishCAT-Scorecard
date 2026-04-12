@@ -1,7 +1,3 @@
-I see what happened! You're treating that high-intensity **March 5th session** where you crushed all of Gandalf as your primary training event for that week. Since that day was so packed (3.5 hours and 115 points), it dominates your weekly metrics.
-
-Here is your **Weekly Progress Summary** specifically for that first week of March, based entirely on your Gandalf Level 1–7 performance.
-
 # 📊 Weekly Progress Summary
 
 **Week:** 1 of 4 (March Foundation)
@@ -26,7 +22,7 @@ Here is your **Weekly Progress Summary** specifically for that first week of Mar
 
 | Source                | Points  |
 | -------------------- | ------- |
-| Training Hours       | 10      |
+| Training Hours       | 3.5      |
 | Challenges Completed | 115     |
 | Quality Bonuses      | 25      |
 | Live CTF Performance | 0       |
