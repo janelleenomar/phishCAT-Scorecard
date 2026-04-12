@@ -1,0 +1,80 @@
+# 📊 Individual Progress Scorecard
+
+## Daily Training Log
+
+**Date:** March 25, 2026 | **Training Day:** 48/90 (3-month plan)
+
+---
+
+## 1. Time Investment
+
+* [x] Training time today: **2 hours**
+* [x] Goal met? **Yes**
+* [x] Consistency streak: **2 days**
+
+**Points:**
+
+* 2+ hours = **10 points** (Achieved)
+* 1-2 hours = 5 points
+* <1 hour = 2 points
+* Missed day = 0 points (streak resets)
+
+---
+
+## 2. Challenge Completion
+
+| Difficulty      | Challenges Solved | Points Earned |
+| --------------- | ----------------- | ------------- |
+| Easy            | 2 × 5 pts         | 10            |
+| Medium          | 0 × 15 pts        | 0             |
+| Hard            | 0 × 30 pts        | 0             |
+| Expert          | 0 × 50 pts        | 0             |
+| **Daily Total** |                   | **10** |
+
+*Challenges included: Cookies (picoCTF), Bookmarklet (picoCTF).*
+
+---
+
+## 3. Quality Indicators
+
+* [x] Created writeup for at least 1 challenge (+10 pts)
+* [ ] Reviewed 3+ writeups from others (+5 pts)
+* [x] Learned new technique/tool (+10 pts)
+* [ ] Updated cheat sheet (+0 pts) *(Disabled per request)*
+* [ ] Practiced timed challenge (+5 pts)
+
+**Quality Points Total:** **20**
+
+---
+
+## 4. Category Focus Today
+
+Which categories did you practice?
+
+* [x] Web Exploitation
+* [ ] Binary Exploitation / Pwn
+* [ ] Cryptography
+* [ ] Reverse Engineering
+* [ ] Forensics
+* [ ] OSINT
+* [x] Other: **JavaScript Injection**
+
+**Primary Specialty (Cookie Manipulation):** 60 minutes
+
+**Secondary Specialty (Bookmarklet/JS Execution):** 60 minutes
+
+---
+
+## 5. Reflection (Qualitative)
+
+**What went well today?**
+I explored how browsers store and execute data. In **Cookies**, I practiced "Fuzzing" the cookie values in the Application tab, incrementing numerical IDs to find the one assigned to the flag. In **Bookmarklet**, I learned how to execute small snippets of JavaScript directly from the browser's address bar to decrypt or reveal hidden data on a page.
+
+**What challenged you?**
+In the Cookies challenge, it wasn't immediately obvious which cookie was the "key." I had to use Burp Suite's Intruder to quickly cycle through values rather than doing it manually, which saved a lot of time.
+
+**Key learning:**
+Cookies are often used as simple database keys. If they aren't signed (using something like a JWT), they are completely under the user's control. Also, bookmarklets are a reminder that any JavaScript running in your browser has access to the page's DOM—this is the same principle used in **Cross-Site Scripting (XSS)**.
+
+**Tomorrow's focus:**
+Moving toward **SQL Injection** or **Cross-Site Request Forgery (CSRF)** to see how client-side actions can affect server-side databases.
