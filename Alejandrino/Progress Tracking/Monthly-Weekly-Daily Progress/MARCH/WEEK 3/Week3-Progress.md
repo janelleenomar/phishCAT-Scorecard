@@ -1,7 +1,3 @@
-You sent exactly 4 scorecard logs for this week. It looks like you shifted back into core web fundamentals and reconnaissance, focusing heavily on how servers and browsers communicate.
-
-Here is your **Weekly Progress Summary** for Week 3.
-
 # 📊 Weekly Progress Summary
 
 **Week:** 3 of 4
