@@ -1,7 +1,3 @@
-Finalizing **Week 4**! This week shows a very clear theme: you’ve moved from just "finding" things to "manipulating" how the browser and server interact. By tackling cookie fuzzing and logic bypasses, you're officially moving into the "Exploitation" phase of your training.
-
-Here is your **Weekly Progress Summary** for Week 4.
-
 # 📊 Weekly Progress Summary
 
 **Week:** 4 of 4
