@@ -18,7 +18,7 @@ Here is your **Weekly Progress Summary** for Week 3.
 | Live CTF Participated  | 1–2    | 0      | ✗      |
 | CTF Challenges Solved  | 2–5    | 0      | ✗      |
 | Writeups Created       | 3–5    | 6      | ✓      |
-| New Techniques Learned | 2–3    | 4      | ✓      |
+| New Techniques Learned | 2–3    | 6      | ✓      |
 
 ---
 
