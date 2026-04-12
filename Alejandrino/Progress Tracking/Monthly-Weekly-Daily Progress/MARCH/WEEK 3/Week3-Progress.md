@@ -26,8 +26,8 @@ Here is your **Weekly Progress Summary** for Week 3.
 
 | Source                | Points  |
 | -------------------- | ------- |
-| Training Hours       | 40      |
-| Challenges Completed | 30      |
+| Training Hours       | 8.5      |
+| Challenges Completed | 70      |
 | Quality Bonuses      | 80      |
 | Live CTF Performance | 0       |
 | Writeups & Learning  | 60      |
