@@ -1,0 +1,82 @@
+# 📊 Individual Progress Scorecard
+
+## Daily Training Log
+
+**Date:** March 5, 2026 | **Training Day:** 28/90 (3-month plan)
+
+---
+
+## 1. Time Investment
+
+* [x] Training time today: **3.5 hours**
+* [x] Goal met? **Yes**
+* [x] Consistency streak: **1 day**
+
+**Points:**
+
+* 2+ hours = **10 points** (Achieved)
+* 1-2 hours = 5 points
+* <1 hour = 2 points
+* Missed day = 0 points (streak resets)
+
+---
+
+## 2. Challenge Completion
+
+| Difficulty      | Challenges Solved | Points Earned |
+| --------------- | ----------------- | ------------- |
+| Easy            | 2 × 5 pts         | 10            |
+| Medium          | 3 × 15 pts        | 45            |
+| Hard            | 2 × 30 pts        | 60            |
+| Expert          | 0 × 50 pts        | 0             |
+| **Daily Total** |                   | **115** |
+
+*Challenges included: Gandalf Levels 1-2 (Easy), Gandalf Levels 3-5 (Medium), Gandalf Levels 6-7 (Hard).*
+
+---
+
+## 3. Quality Indicators
+
+* [x] Created writeup for at least 1 challenge (+10 pts)
+* [ ] Reviewed 3+ writeups from others (+5 pts)
+* [x] Learned new technique/tool (+10 pts)
+* [x] Updated cheat sheet (+5 pts)
+* [ ] Practiced timed challenge (+5 pts)
+
+**Quality Points Total:** **25**
+
+---
+
+## 4. Category Focus Today
+
+Which categories did you practice?
+
+* [ ] Web Exploitation
+* [ ] Binary Exploitation / Pwn
+* [ ] Cryptography
+* [ ] Reverse Engineering
+* [ ] Forensics
+* [ ] OSINT
+* [x] Other: **AI Safety & Prompt Injection**
+
+**Primary Specialty (Prompt Injection):** 180 minutes
+
+**Secondary Specialty (Documentation/Cheat Sheet):** 30 minutes
+
+---
+
+## 5. Reflection (Qualitative)
+
+**What went well today?**
+Successfully cleared all seven levels of the Gandalf Lakera challenge. I was able to transition from basic direct queries to advanced obfuscation and social engineering techniques to extract the hidden passwords.
+
+
+
+**What challenged you?**
+Level 7 was a significant hurdle. The combination of all previous defensive techniques meant that simple tricks no longer worked. I had to pivot to "Atomic Siphoning"—extracting the password letter by letter—to bypass the final output filter.
+
+**Key learning:**
+LLM security is fragile. Even if a model is told never to reveal a secret, it can be coerced into revealing parts of that secret (metadata, letter counts, or character fragments) which can then be used to reconstruct the whole.
+
+**Tomorrow's focus:**
+Apply the logic learned from prompt injection (thinking about input/output filters) to traditional Web Exploitation, specifically looking into WAF bypasses for Cross-Site Scripting (XSS).
