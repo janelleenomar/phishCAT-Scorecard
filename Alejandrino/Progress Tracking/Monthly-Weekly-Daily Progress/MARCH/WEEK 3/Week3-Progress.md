@@ -17,7 +17,7 @@ Here is your **Weekly Progress Summary** for Week 3.
 | Challenges Solved      | 15–25  | 6      | ✗      |
 | Live CTF Participated  | 1–2    | 0      | ✗      |
 | CTF Challenges Solved  | 2–5    | 0      | ✗      |
-| Writeups Created       | 3–5    | 4      | ✓      |
+| Writeups Created       | 3–5    | 6      | ✓      |
 | New Techniques Learned | 2–3    | 4      | ✓      |
 
 ---
@@ -31,7 +31,7 @@ Here is your **Weekly Progress Summary** for Week 3.
 | Quality Bonuses      | 80      |
 | Live CTF Performance | 0       |
 | Writeups & Learning  | 60      |
-| **Weekly Total** | **210** |
+| **Weekly Total** | **218.5** |
 
 ---
 
