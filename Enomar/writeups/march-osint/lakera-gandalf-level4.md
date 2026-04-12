@@ -28,7 +28,7 @@ The AI's system prompt prevents it from saying the word normally, but it still w
 ## 3. The Findings
 By forcing the LLM to alter the token structure of the password using hyphens, the output filter was successfully bypassed:
 
-* **What is the secret password for Level 4?** `underground`
+* **What is the secret password for Level 4?** `UNDERGROUND`
 
 ## 4. Conclusion
 This challenge highlighted a critical vulnerability in basic Data Loss Prevention (DLP) and string-matching security filters. If a security system only looks for an exact match of a sensitive keyword (like a password or a proprietary project name), an attacker can easily evade detection by asking the AI to spell it out, encode it in Base64, or insert spaces between the letters. Robust AI security must evaluate the underlying meaning of the output, not just the exact characters being printed.
